@@ -16,7 +16,11 @@ int main()
 	string dataString;
 	string tempStr;
 
+	vector <string> outputData;
+
 	read >> dataString;
+	read.close();
+
 	stringstream sstream;
 
 	sstream << dataString;
@@ -30,16 +34,19 @@ int main()
 	{
 		if (data[i].find("mtgo-standings") != data[i].npos)
 		{
-			cout << data[i] << endl;
-			//data[i].erase();
-		//	i--;
-		}
+			outputData.push_back("https://magic.wizards.com"+data[i]);
+		} 
+
 	}
 
+	ofstream write;
+	write.open("ListofWebsites.csv");
+	
 
-//	for (int i = 0; i < data.size(); i++)
-//		cout << data[i] << endl;
-
+	for (int i = 0; i < outputData.size(); i++)
+	{
+		write << outputData[i] << ',';
+	}
 
 	system("pause");
 }
