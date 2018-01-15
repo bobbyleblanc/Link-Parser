@@ -83,7 +83,7 @@ int main()
 	string playerPoints = "24";
 	
 	
-	for (int i = 0; i < playerList.size(); i++)
+	for (int i = 0; i < playerList.size(); i++)			// Remove match points from usernames
 	{
 		bool found = false;
 		string tempPoints1{playerList[i][playerList[i].size()-1]};
