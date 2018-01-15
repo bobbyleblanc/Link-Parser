@@ -73,14 +73,45 @@ int main()
 	{
 		for (int j = 0; j < playerList[i].size(); j++)
 		{
-			if (playerList[i][j] == '.')
+			if ((playerList[i][j] == '.')&&(playerList[i][j-1]=='0'))
 			{
-				playerList[i].erase(playerList[i].begin() + j - 3, playerList[i].end());
+				playerList[i].erase(playerList[i].begin() + j - 1, playerList[i].end());
 			}
 		}
 	}
 
+	string playerPoints = "24";
 	
+	
+	for (int i = 0; i < playerList.size(); i++)
+	{
+		bool found = false;
+		string tempPoints1{playerList[i][playerList[i].size()-1]};
+		string tempPoints2{playerList[i][playerList[i].size() - 2],playerList[i][playerList[i].size() - 1] };
+		
+		while (!found)
+		{
+			if (isdigit(tempPoints2[0])&&(tempPoints2 == playerPoints)&&(stoi(playerPoints)>9))
+			{
+				playerList[i].erase(playerList[i].begin() + playerList[i].size() - 2, playerList[i].end());
+				found = true;
+			}
+			else if (tempPoints1 == playerPoints)
+			{
+				
+				playerList[i].erase(playerList[i].begin() + playerList[i].size()-1, playerList[i].end());
+				found = true;
+			}
+			else
+			{
+				playerPoints = to_string(stoi(playerPoints) - 3);
+			}
+		}
+	}
+	
+	
+	for (int i = 0; i < playerList.size(); i++)
+		cout << playerList[i] << endl;
 
 	vector <string> deckLists;
 
