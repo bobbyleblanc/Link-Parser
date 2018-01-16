@@ -51,5 +51,4 @@ int main()
 			write << outputData[i];
 	}
 
-	system("pause");
 }

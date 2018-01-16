@@ -3,7 +3,6 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-
 using namespace std;
 
 void CreatePlayerList(vector <string> & data, vector<string> & playerList)
@@ -273,9 +272,10 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 	}
 
 }
+
 int main()
 {
-
+	ifstream getDate;
 	vector<string> data;
 	vector <string> playerList;
 	vector <vector<string>> decklists;
@@ -295,21 +295,23 @@ int main()
 
 	vector<string> outputFilenames;
 	vector<string> inputFilenames;
-
-	inputFilenames.push_back("VintageOutput.txt");
-	outputFilenames.push_back("VintageDecklists.csv");
-	inputFilenames.push_back("CommanderOutput.txt");
-	outputFilenames.push_back("CommanderDecklists.csv");
-	inputFilenames.push_back("LegacyOutput.txt");
-	outputFilenames.push_back("LegacyDecklists.csv");
-	inputFilenames.push_back("PauperOutput.txt");
-	outputFilenames.push_back("PauperDecklists.csv");
-	inputFilenames.push_back("ModernOutput.txt");
-	outputFilenames.push_back("ModernDecklists.csv");
-	inputFilenames.push_back("StandardOutput.txt");
-	outputFilenames.push_back("StandardDecklists.csv");
-
-
+	
+	string date;
+	getDate.open("date.txt");
+	getDate >> date;
+	
+	inputFilenames.push_back(date + "/VintageOutput.txt");
+	outputFilenames.push_back(date + "/VintageDecklists.csv");
+	inputFilenames.push_back(date + "/CommanderOutput.txt");
+	outputFilenames.push_back(date + "/CommanderDecklists.csv");
+	inputFilenames.push_back(date + "/LegacyOutput.txt");
+	outputFilenames.push_back(date + "/LegacyDecklists.csv");
+	inputFilenames.push_back(date + "/PauperOutput.txt");
+	outputFilenames.push_back(date + "/PauperDecklists.csv");
+	inputFilenames.push_back(date + "/ModernOutput.txt");
+	outputFilenames.push_back(date + "/ModernDecklists.csv");
+	inputFilenames.push_back(date + "/StandardOutput.txt");
+	outputFilenames.push_back(date + "/StandardDecklists.csv");
 	outputFilenames.push_back("Decklists.csv");
 
 	CreatePlayerList(data, playerList);				// For challenges
@@ -337,6 +339,4 @@ int main()
 	OutputDecklists(modernDecklists, outputFilenames[4]);
 	OutputDecklists(standardDecklists, outputFilenames[5]);
 
-
-	system("pause");
 }
