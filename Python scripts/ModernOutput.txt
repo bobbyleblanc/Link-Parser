@@ -1,0 +1,3402 @@
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+Competitive Modern Constructed League | MAGIC: THE GATHERING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://magic.wizards.com/modules/system/system.base.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.menus.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.messages.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.theme.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/calendar/css/calendar_multiday.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/date/date_api/date.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?p2bde1");
+@import url("https://magic.wizards.com/modules/field/theme/field.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/mollom/mollom.css?p2bde1");
+@import url("https://magic.wizards.com/modules/node/node.css?p2bde1");
+@import url("https://magic.wizards.com/modules/user/user.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/features/wiz_views_events_calendar/css/idangerous.swiper.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/features/wiz_views_events_calendar/css/idangerous.swiper.scrollbar.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/views/css/views.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ckeditor/css/ckeditor.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ctools/css/ctools.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ctools/css/modal.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/modal_forms/css/modal_forms_popup.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/panels/css/panels.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/custom/wiz_npsu/css/npsu.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/custom/wiz_npsu_mtg/css/npsu_mtg.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/jquery.fancybox.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/jquery-ui-mod.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/owl.carousel.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/scrollbars.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/fonts.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/core.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/header.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/footer.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/page-header.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/medias.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/search.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/decklist.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/articles.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/game-info.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/events.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/community.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/mx.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/sections/immersive.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/sections/interstitials.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/styles-extended.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/legacy.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/legacyStyles.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/geo-blocker.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/panorama_viewer.css?p2bde1");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-15020098-13", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "pathToTheme": "sites/all/themes/wiz_mtg" });
+//--><!]]>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"wiz_mtg","theme_token":"cW_-KNGfk3TuTIuadSkzbWD8bVnoi3KT1p01qN4a6fg","jquery_version":"1.8","js":{"sites\/all\/themes\/wiz_mtg\/js\/ShareButton.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/wiz_bean_content_deck_list.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/masonry.pkgd.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/js\/wiz_autocard.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/js\/jquery.qtip-1.0.0-rc3.min.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/d3.v3.min.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/wiz_bean_content_deck_list.charts.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/wiz_decklist_filter\/js\/wiz_decklist_filter.js":1,"sites\/all\/modules\/custom\/wiz_mdn_subscription\/js\/wiz_mdn_subscription.js":1,"sites\/all\/modules\/custom\/wiz_show_period\/js\/moment.min.js":1,"sites\/all\/modules\/custom\/wiz_store_and_event_locator\/js\/wiz_store_and_event_locator.js":1,"sites\/all\/modules\/features\/wiz_views_article_archives\/js\/wiz_views_article_archives.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/idangerous.swiper-2.1.min.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/idangerous.swiper.scrollbar-2.1.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/custom.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/contrib\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/custom\/wiz_deletecookies\/js\/deletecookies.js":1,"sites\/all\/modules\/custom\/wiz_deletecookies\/js\/jquery.cookie.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"https:\/\/accounts.wizards.com\/Widget\/Widget.js":1,"sites\/all\/modules\/custom\/wiz_npsu\/js\/npsu_widget.js":1,"sites\/all\/themes\/wiz_mtg\/js\/image-comparison-slider.js":1,"sites\/all\/themes\/wiz_mtg\/js\/country_cdn.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery-ui.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/content-gallery-grid\/modernizr.custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.fancybox.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.scrollbar.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.mmenu.oncanvas.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.columnlist.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/dropdown.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/owl.carousel.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/slick.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/stacktable.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/arketype.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.unveil.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.mCustomScrollbar.concat.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.panorama_viewer.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ABTesting.js":1,"sites\/all\/themes\/wiz_mtg\/js\/GeoBlocker.js":1,"sites\/all\/themes\/wiz_mtg\/js\/StickyVideos.js":1,"sites\/all\/themes\/wiz_mtg\/js\/AudioPlayer.js":1,"sites\/all\/themes\/wiz_mtg\/js\/Card.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardCallout.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardPresentation.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardsLayout.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CoverBackground.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedCards.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedEvents.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedHeader.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedIcons.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedPodcasts.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedProducts.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ImagesAnimator.js":1,"sites\/all\/themes\/wiz_mtg\/js\/immersive-experience-homepage-custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/immersive-experience-event-custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/interstitials.js":1,"sites\/all\/themes\/wiz_mtg\/js\/community.js":1,"sites\/all\/themes\/wiz_mtg\/js\/inline-features.js":1,"sites\/all\/themes\/wiz_mtg\/js\/MainMenu.js":1,"sites\/all\/themes\/wiz_mtg\/js\/MediaGalleries.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ParallaxBackground.js":1,"sites\/all\/themes\/wiz_mtg\/js\/PodcastListItem.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ProductFeatured.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ShowHideListItems.js":1,"sites\/all\/themes\/wiz_mtg\/js\/TabbedFeatures.js":1,"sites\/all\/themes\/wiz_mtg\/js\/TopRankings.js":1,"sites\/all\/themes\/wiz_mtg\/js\/VideoPlaylist.js":1,"sites\/all\/themes\/wiz_mtg\/js\/VideoPlaylistMosaic.js":1,"sites\/all\/themes\/wiz_mtg\/js\/core.js":1,"sites\/all\/themes\/wiz_mtg\/js\/mx.js":1,"https:\/\/cdn.datatables.net\/1.10.15\/js\/jquery.dataTables.min.js":1,"https:\/\/cdn.datatables.net\/responsive\/2.1.1\/js\/dataTables.responsive.min.js":1,"https:\/\/www.youtube.com\/iframe_api":1,"https:\/\/player.twitch.tv\/js\/embed\/v1.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/css\/idangerous.swiper.css":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/css\/idangerous.swiper.scrollbar.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/wiz_npsu\/css\/npsu.css":1,"sites\/all\/modules\/custom\/wiz_npsu_mtg\/css\/npsu_mtg.css":1,"sites\/all\/themes\/wiz_mtg\/css\/jquery.fancybox.css":1,"sites\/all\/themes\/wiz_mtg\/css\/jquery-ui-mod.css":1,"sites\/all\/themes\/wiz_mtg\/css\/owl.carousel.css":1,"sites\/all\/themes\/wiz_mtg\/css\/scrollbars.css":1,"sites\/all\/themes\/wiz_mtg\/css\/fonts.css":1,"sites\/all\/themes\/wiz_mtg\/css\/core.css":1,"sites\/all\/themes\/wiz_mtg\/css\/header.css":1,"sites\/all\/themes\/wiz_mtg\/css\/footer.css":1,"sites\/all\/themes\/wiz_mtg\/css\/page-header.css":1,"sites\/all\/themes\/wiz_mtg\/css\/medias.css":1,"sites\/all\/themes\/wiz_mtg\/css\/search.css":1,"sites\/all\/themes\/wiz_mtg\/css\/decklist.css":1,"sites\/all\/themes\/wiz_mtg\/css\/articles.css":1,"sites\/all\/themes\/wiz_mtg\/css\/game-info.css":1,"sites\/all\/themes\/wiz_mtg\/css\/events.css":1,"sites\/all\/themes\/wiz_mtg\/css\/community.css":1,"sites\/all\/themes\/wiz_mtg\/css\/mx.css":1,"sites\/all\/themes\/wiz_mtg\/css\/sections\/immersive.css":1,"sites\/all\/themes\/wiz_mtg\/css\/sections\/interstitials.css":1,"sites\/all\/themes\/wiz_mtg\/css\/styles-extended.css":1,"sites\/all\/themes\/wiz_mtg\/css\/legacy.css":1,"sites\/all\/themes\/wiz_mtg\/css\/legacyStyles.css":1,"sites\/all\/themes\/wiz_mtg\/css\/_theme-override.css":1,"sites\/all\/themes\/wiz_mtg\/css\/geo-blocker.css":1,"sites\/all\/themes\/wiz_mtg\/css\/panorama_viewer.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic":1,"https:\/\/cdn.datatables.net\/1.10.15\/css\/jquery.dataTables.min.css":1,"https:\/\/cdn.datatables.net\/responsive\/2.1.1\/css\/responsive.dataTables.min.css":1}},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":330,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"wiz_core":{"wiz_core_switch_in_days":14,"wiz_core_switch_in_visits":10,"wiz_core_switch_b_path":"home"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"npsu_widget":{"enabled":true,"logged_in":"false"},"urlIsAjaxTrusted":{"\/en\/articles\/archive\/mtgo-standings\/competitive-modern-constructed-league-2018-01-11":true}});
+//--><!]]>
+
+
+      @media all {
+        header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png) no-repeat;
+          background-size: 100% 100px;
+
+        }
+        #mobile-menu .header .logo a {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 100%;
+        }
+        #page.snap-menu header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 50px;
+        }
+      }
+      @media (max-width: 1200px) {
+        header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 50px;
+        }
+      }
+    
+
+
+
+  /* Interstitials variables */
+  var Interstitials = {
+    list: [
+                        ]
+  };
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Locator Card Database Sign In | Sign Up 
+
+
+
+
+
+
+ 
+
+
+
+Magic the Gathering
+
+NEW TO MAGICjQuery('#SignInButton').attr('onclick', 'return wotcAccountWidget.showLoginModal();');New To Magic Home
+Strategy
+Lore
+Community
+
+PRODUCTSFEATURED RELEASE
+COMING SOON
+MTG ARENA
+MAGIC DUELS
+MAGIC ONLINE
+CARD SET ARCHIVE
+
+GAMEPLAYGameplay Home
+ABOUT THE GAME
+HOW TO PLAY
+HOW TO BUILD A DECK
+IMPROVE YOUR GAME
+RULES & FORMATS
+
+STORYMAGIC STORY
+PLANESWALKERS
+PLANES
+
+EVENTSEVENTS
+EVENTS HOME
+WHAT IS ORGANIZED PLAY?
+EVENT TYPES
+COVERAGECOVERAGE ARCHIVE
+TOP PLAYERS
+
+SCHEDULES
+RESOURCESPLANESWALKER POINTS
+JUDGES
+
+
+ARTICLESARTICLES
+ARTICLES HOME
+COLUMNSCOLUMNISTS
+MAKING MAGIC
+MAGIC STORY
+TOP DECKS
+ORGANIZED PLAY
+LATEST DEVELOPMENTS
+
+ARCHIVES
+WINNING DECKS
+MEDIAPODCASTS
+WALLPAPERS
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ARTICLES HOME
+ARCHIVES
+MTGO Standings
+
+Competitive Modern Constructed League
+
+      Posted in      MTGO Standings
+      on January 11, 2018    
+
+
+
+
+Share Article
+
+Share
+Tweet
+Share
+
+
+
+
+
+
+Decklists
+
+Decklists
+
+
+
+
+
+TSPJendrek (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Creature (8)
+
+2
+Platinum Emperion
+
+
+4
+Snapcaster Mage
+
+
+2
+Vendilion Clique
+
+
+
+Sorcery (8)
+
+4
+Madcap Experiment
+
+
+4
+Serum Visions
+
+
+
+Instant (19)
+
+3
+Cryptic Command
+
+
+1
+Electrolyze
+
+
+1
+Izzet Charm
+
+
+4
+Lightning Bolt
+
+
+4
+Opt
+
+
+4
+Remand
+
+
+2
+Spell Snare
+
+
+
+Enchantment (3)
+
+3
+Blood Moon
+
+
+
+Land (22)
+
+2
+Desolate Lighthouse
+
+
+2
+Flooded Strand
+
+
+6
+Island
+
+
+1
+Mountain
+
+
+2
+Polluted Delta
+
+
+4
+Scalding Tarn
+
+
+2
+Steam Vents
+
+
+3
+Sulfur Falls
+
+
+60 Cards 
+
+
+Sideboard (15)
+
+2
+Abrade
+
+
+1
+Anger of the Gods
+
+
+2
+Dispel
+
+
+2
+Engineered Explosives
+
+
+2
+Entrancing Melody
+
+
+2
+Logic Knot
+
+
+4
+Young Pyromancer
+
+
+
+
+Blue (29)
+
+4
+Snapcaster Mage
+
+
+2
+Vendilion Clique
+
+
+3
+Cryptic Command
+
+
+4
+Opt
+
+
+4
+Remand
+
+
+4
+Serum Visions
+
+
+2
+Spell Snare
+
+
+2
+Dispel
+
+
+2
+Entrancing Melody
+
+
+2
+Logic Knot
+
+
+
+Red (18)
+
+3
+Blood Moon
+
+
+4
+Lightning Bolt
+
+
+4
+Madcap Experiment
+
+
+2
+Abrade
+
+
+1
+Anger of the Gods
+
+
+4
+Young Pyromancer
+
+
+
+Multi colored (2)
+
+1
+Electrolyze
+
+
+1
+Izzet Charm
+
+
+
+Colorless (26)
+
+2
+Desolate Lighthouse
+
+
+2
+Flooded Strand
+
+
+6
+Island
+
+
+1
+Mountain
+
+
+2
+Polluted Delta
+
+
+4
+Scalding Tarn
+
+
+2
+Steam Vents
+
+
+3
+Sulfur Falls
+
+
+2
+Platinum Emperion
+
+
+2
+Engineered Explosives
+
+
+75 Cards 
+
+
+
+1 (16)
+
+4
+Lightning Bolt
+
+
+4
+Opt
+
+
+4
+Serum Visions
+
+
+2
+Spell Snare
+
+
+2
+Dispel
+
+
+
+2 (19)
+
+4
+Snapcaster Mage
+
+
+1
+Izzet Charm
+
+
+4
+Remand
+
+
+2
+Abrade
+
+
+2
+Entrancing Melody
+
+
+2
+Logic Knot
+
+
+4
+Young Pyromancer
+
+
+
+3 (7)
+
+2
+Vendilion Clique
+
+
+3
+Blood Moon
+
+
+1
+Electrolyze
+
+
+1
+Anger of the Gods
+
+
+
+4 (7)
+
+3
+Cryptic Command
+
+
+4
+Madcap Experiment
+
+
+
+8 (2)
+
+2
+Platinum Emperion
+
+
+51 Cards 
+
+
+
+Common (15)
+
+6
+Island
+
+
+1
+Mountain
+
+
+4
+Opt
+
+
+2
+Dispel
+
+
+2
+Logic Knot
+
+
+
+Uncommon (22)
+
+1
+Electrolyze
+
+
+1
+Izzet Charm
+
+
+4
+Lightning Bolt
+
+
+4
+Remand
+
+
+4
+Serum Visions
+
+
+2
+Spell Snare
+
+
+2
+Abrade
+
+
+4
+Young Pyromancer
+
+
+
+Rare (24)
+
+2
+Desolate Lighthouse
+
+
+3
+Sulfur Falls
+
+
+4
+Snapcaster Mage
+
+
+3
+Blood Moon
+
+
+3
+Cryptic Command
+
+
+4
+Madcap Experiment
+
+
+1
+Anger of the Gods
+
+
+2
+Engineered Explosives
+
+
+2
+Entrancing Melody
+
+
+
+Mythic (14)
+
+2
+Flooded Strand
+
+
+2
+Polluted Delta
+
+
+4
+Scalding Tarn
+
+
+2
+Steam Vents
+
+
+2
+Platinum Emperion
+
+
+2
+Vendilion Clique
+
+
+75 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:28:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Desolate Lighthouse";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Flooded Strand";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"6";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Island";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:8:"Mountain";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Polluted Delta";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Scalding Tarn";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Steam Vents";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Sulfur Falls";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Platinum Emperion";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Snapcaster Mage";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Vendilion Clique";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Blood Moon";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Cryptic Command";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Electrolyze";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Izzet Charm";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Lightning Bolt";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Madcap Experiment";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:3:"Opt";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Remand";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Serum Visions";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Spell Snare";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Abrade";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Anger of the Gods";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Dispel";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Engineered Explosives";s:22:"field_card_image_front";a:0:{}}}i:25;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Entrancing Melody";s:22:"field_card_image_front";a:0:{}}}i:26;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Logic Knot";s:22:"field_card_image_front";a:0:{}}}i:27;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Young Pyromancer";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['tspjendrek_-'] = {"manacost":{"labels":[0,1,2,3,4,8],"counts":[24,16,19,7,7,2]},"color":{"colors":["#91d4f7","#f28f78","#ffd778"],"labels":["Blue","Red","Multi-Colored"],"counts":[29,18,2],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/blue.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/red.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/multiple.png"],"multicolors":["blue","red"]},"type":{"colors":["#555555","#777777","#cccccc","#dddddd","#666666","#eeeeee"],"labels":["Land","Creature","Enchantment","Instant","Sorcery","Artifact"],"counts":[22,12,3,25,11,2],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png"]}};
+})(jQuery);
+
+
+
+
+
+Smithenator (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Creature (8)
+
+4
+Primeval Titan
+
+
+4
+Sakura-Tribe Elder
+
+
+
+Sorcery (16)
+
+3
+Explore
+
+
+3
+Farseek
+
+
+4
+Scapeshift
+
+
+4
+Search for Tomorrow
+
+
+2
+Sweltering Suns
+
+
+
+Instant (6)
+
+4
+Lightning Bolt
+
+
+2
+Summoner's Pact
+
+
+
+Enchantment (3)
+
+3
+Khalni Heart Expedition
+
+
+
+Land (27)
+
+3
+Cinder Glade
+
+
+2
+Forest
+
+
+7
+Mountain
+
+
+4
+Stomping Ground
+
+
+4
+Valakut, the Molten Pinnacle
+
+
+3
+Windswept Heath
+
+
+4
+Wooded Foothills
+
+
+60 Cards 
+
+
+Sideboard (15)
+
+3
+Ancient Grudge
+
+
+2
+Anger of the Gods
+
+
+2
+Nature's Claim
+
+
+2
+Obstinate Baloth
+
+
+1
+Reclamation Sage
+
+
+2
+Relic of Progenitus
+
+
+1
+Tireless Tracker
+
+
+2
+Witchbane Orb
+
+
+
+
+Red (11)
+
+4
+Lightning Bolt
+
+
+2
+Sweltering Suns
+
+
+3
+Ancient Grudge
+
+
+2
+Anger of the Gods
+
+
+
+Green (31)
+
+4
+Primeval Titan
+
+
+4
+Sakura-Tribe Elder
+
+
+3
+Explore
+
+
+3
+Farseek
+
+
+3
+Khalni Heart Expedition
+
+
+4
+Scapeshift
+
+
+4
+Search for Tomorrow
+
+
+2
+Nature's Claim
+
+
+2
+Obstinate Baloth
+
+
+1
+Reclamation Sage
+
+
+1
+Tireless Tracker
+
+
+
+Colorless (33)
+
+3
+Cinder Glade
+
+
+2
+Forest
+
+
+7
+Mountain
+
+
+4
+Stomping Ground
+
+
+4
+Valakut, the Molten Pinnacle
+
+
+3
+Windswept Heath
+
+
+4
+Wooded Foothills
+
+
+2
+Summoner's Pact
+
+
+2
+Relic of Progenitus
+
+
+2
+Witchbane Orb
+
+
+75 Cards 
+
+
+
+1 (8)
+
+4
+Lightning Bolt
+
+
+2
+Nature's Claim
+
+
+2
+Relic of Progenitus
+
+
+
+2 (16)
+
+4
+Sakura-Tribe Elder
+
+
+3
+Explore
+
+
+3
+Farseek
+
+
+3
+Khalni Heart Expedition
+
+
+3
+Ancient Grudge
+
+
+
+3 (10)
+
+4
+Search for Tomorrow
+
+
+2
+Sweltering Suns
+
+
+2
+Anger of the Gods
+
+
+1
+Reclamation Sage
+
+
+1
+Tireless Tracker
+
+
+
+4 (8)
+
+4
+Scapeshift
+
+
+2
+Obstinate Baloth
+
+
+2
+Witchbane Orb
+
+
+
+6 (4)
+
+4
+Primeval Titan
+
+
+46 Cards 
+
+
+
+Common (31)
+
+2
+Forest
+
+
+7
+Mountain
+
+
+4
+Sakura-Tribe Elder
+
+
+3
+Explore
+
+
+3
+Farseek
+
+
+3
+Khalni Heart Expedition
+
+
+4
+Search for Tomorrow
+
+
+3
+Ancient Grudge
+
+
+2
+Nature's Claim
+
+
+
+Uncommon (7)
+
+4
+Lightning Bolt
+
+
+1
+Reclamation Sage
+
+
+2
+Relic of Progenitus
+
+
+
+Rare (19)
+
+4
+Valakut, the Molten Pinnacle
+
+
+4
+Scapeshift
+
+
+2
+Summoner's Pact
+
+
+2
+Sweltering Suns
+
+
+2
+Anger of the Gods
+
+
+2
+Obstinate Baloth
+
+
+1
+Tireless Tracker
+
+
+2
+Witchbane Orb
+
+
+
+Mythic (18)
+
+3
+Cinder Glade
+
+
+4
+Stomping Ground
+
+
+3
+Windswept Heath
+
+
+4
+Wooded Foothills
+
+
+4
+Primeval Titan
+
+
+75 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:25:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Cinder Glade";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Forest";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"7";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:8:"Mountain";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Stomping Ground";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:28:"Valakut, the Molten Pinnacle";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Windswept Heath";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Wooded Foothills";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Primeval Titan";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Sakura-Tribe Elder";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Explore";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Farseek";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:23:"Khalni Heart Expedition";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Lightning Bolt";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Scapeshift";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Search for Tomorrow";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Summoner's Pact";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Sweltering Suns";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Ancient Grudge";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Anger of the Gods";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Nature's Claim";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Obstinate Baloth";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Reclamation Sage";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Relic of Progenitus";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Tireless Tracker";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Witchbane Orb";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['smithenator_-'] = {"manacost":{"labels":[0,1,2,3,4,6],"counts":[29,8,16,10,8,4]},"color":{"colors":["#7dcd98","#f28f78"],"labels":["Green","Red"],"counts":[31,11],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/green.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/red.png"],"multicolors":[]},"type":{"colors":["#555555","#777777","#666666","#cccccc","#dddddd","#eeeeee"],"labels":["Land","Creature","Sorcery","Enchantment","Instant","Artifact"],"counts":[27,12,18,3,11,4],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png"]}};
+})(jQuery);
+
+
+
+
+
+McWinSauce (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Planeswalker (4)
+
+1
+Gideon Jura
+
+
+2
+Gideon of the Trials
+
+
+1
+Jace, Architect of Thought
+
+
+
+Creature (3)
+
+2
+Snapcaster Mage
+
+
+1
+Vendilion Clique
+
+
+
+Sorcery (7)
+
+4
+Serum Visions
+
+
+3
+Supreme Verdict
+
+
+
+Instant (12)
+
+3
+Cryptic Command
+
+
+1
+Logic Knot
+
+
+1
+Mana Leak
+
+
+1
+Negate
+
+
+4
+Path to Exile
+
+
+1
+Spell Snare
+
+
+1
+Sphinx's Revelation
+
+
+
+Enchantment (9)
+
+2
+Detention Sphere
+
+
+1
+Runed Halo
+
+
+2
+Search for Azcanta
+
+
+4
+Spreading Seas
+
+
+
+Land (25)
+
+4
+Celestial Colonnade
+
+
+4
+Field of Ruin
+
+
+4
+Flooded Strand
+
+
+1
+Ghost Quarter
+
+
+1
+Glacial Fortress
+
+
+2
+Hallowed Fountain
+
+
+6
+Island
+
+
+1
+Mystic Gate
+
+
+2
+Plains
+
+
+60 Cards 
+
+
+Sideboard (15)
+
+1
+Bribery
+
+
+1
+Celestial Purge
+
+
+1
+Ceremonious Rejection
+
+
+1
+Crucible of Worlds
+
+
+1
+Disdainful Stroke
+
+
+1
+Dispel
+
+
+1
+Mindbreak Trap
+
+
+3
+Rest in Peace
+
+
+1
+Settle the Wreckage
+
+
+2
+Stony Silence
+
+
+2
+Timely Reinforcements
+
+
+
+
+White (17)
+
+1
+Gideon Jura
+
+
+2
+Gideon of the Trials
+
+
+4
+Path to Exile
+
+
+1
+Runed Halo
+
+
+1
+Celestial Purge
+
+
+3
+Rest in Peace
+
+
+1
+Settle the Wreckage
+
+
+2
+Stony Silence
+
+
+2
+Timely Reinforcements
+
+
+
+Blue (26)
+
+2
+Snapcaster Mage
+
+
+1
+Vendilion Clique
+
+
+3
+Cryptic Command
+
+
+1
+Jace, Architect of Thought
+
+
+1
+Logic Knot
+
+
+1
+Mana Leak
+
+
+1
+Negate
+
+
+2
+Search for Azcanta
+
+
+4
+Serum Visions
+
+
+1
+Spell Snare
+
+
+4
+Spreading Seas
+
+
+1
+Bribery
+
+
+1
+Ceremonious Rejection
+
+
+1
+Disdainful Stroke
+
+
+1
+Dispel
+
+
+1
+Mindbreak Trap
+
+
+
+Multi colored (6)
+
+2
+Detention Sphere
+
+
+1
+Sphinx's Revelation
+
+
+3
+Supreme Verdict
+
+
+
+Colorless (26)
+
+4
+Celestial Colonnade
+
+
+4
+Field of Ruin
+
+
+4
+Flooded Strand
+
+
+1
+Ghost Quarter
+
+
+1
+Glacial Fortress
+
+
+2
+Hallowed Fountain
+
+
+6
+Island
+
+
+1
+Mystic Gate
+
+
+2
+Plains
+
+
+1
+Crucible of Worlds
+
+
+75 Cards 
+
+
+
+1 (11)
+
+4
+Path to Exile
+
+
+4
+Serum Visions
+
+
+1
+Spell Snare
+
+
+1
+Ceremonious Rejection
+
+
+1
+Dispel
+
+
+
+2 (19)
+
+2
+Snapcaster Mage
+
+
+1
+Logic Knot
+
+
+1
+Mana Leak
+
+
+1
+Negate
+
+
+1
+Runed Halo
+
+
+2
+Search for Azcanta
+
+
+4
+Spreading Seas
+
+
+1
+Celestial Purge
+
+
+1
+Disdainful Stroke
+
+
+3
+Rest in Peace
+
+
+2
+Stony Silence
+
+
+
+3 (9)
+
+1
+Vendilion Clique
+
+
+2
+Detention Sphere
+
+
+2
+Gideon of the Trials
+
+
+1
+Sphinx's Revelation
+
+
+1
+Crucible of Worlds
+
+
+2
+Timely Reinforcements
+
+
+
+4 (9)
+
+3
+Cryptic Command
+
+
+1
+Jace, Architect of Thought
+
+
+3
+Supreme Verdict
+
+
+1
+Mindbreak Trap
+
+
+1
+Settle the Wreckage
+
+
+
+5 (2)
+
+1
+Gideon Jura
+
+
+1
+Bribery
+
+
+50 Cards 
+
+
+
+Common (17)
+
+6
+Island
+
+
+2
+Plains
+
+
+1
+Logic Knot
+
+
+1
+Mana Leak
+
+
+1
+Negate
+
+
+4
+Spreading Seas
+
+
+1
+Disdainful Stroke
+
+
+1
+Dispel
+
+
+
+Uncommon (18)
+
+4
+Field of Ruin
+
+
+1
+Ghost Quarter
+
+
+4
+Path to Exile
+
+
+4
+Serum Visions
+
+
+1
+Spell Snare
+
+
+1
+Celestial Purge
+
+
+1
+Ceremonious Rejection
+
+
+2
+Timely Reinforcements
+
+
+
+Rare (26)
+
+4
+Celestial Colonnade
+
+
+1
+Glacial Fortress
+
+
+2
+Snapcaster Mage
+
+
+3
+Cryptic Command
+
+
+2
+Detention Sphere
+
+
+1
+Runed Halo
+
+
+2
+Search for Azcanta
+
+
+3
+Supreme Verdict
+
+
+1
+Bribery
+
+
+1
+Crucible of Worlds
+
+
+3
+Rest in Peace
+
+
+1
+Settle the Wreckage
+
+
+2
+Stony Silence
+
+
+
+Mythic (14)
+
+4
+Flooded Strand
+
+
+2
+Hallowed Fountain
+
+
+1
+Mystic Gate
+
+
+1
+Vendilion Clique
+
+
+1
+Gideon Jura
+
+
+2
+Gideon of the Trials
+
+
+1
+Jace, Architect of Thought
+
+
+1
+Sphinx's Revelation
+
+
+1
+Mindbreak Trap
+
+
+75 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:38:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Celestial Colonnade";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Field of Ruin";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Flooded Strand";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Ghost Quarter";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Glacial Fortress";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Hallowed Fountain";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"6";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Island";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Mystic Gate";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Plains";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Snapcaster Mage";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Vendilion Clique";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Cryptic Command";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Detention Sphere";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Gideon Jura";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Gideon of the Trials";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:26:"Jace, Architect of Thought";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Logic Knot";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Mana Leak";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Negate";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Path to Exile";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Runed Halo";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Search for Azcanta";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Serum Visions";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Spell Snare";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Sphinx's Revelation";s:22:"field_card_image_front";a:0:{}}}i:25;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Spreading Seas";s:22:"field_card_image_front";a:0:{}}}i:26;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Supreme Verdict";s:22:"field_card_image_front";a:0:{}}}i:27;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Bribery";s:22:"field_card_image_front";a:0:{}}}i:28;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Celestial Purge";s:22:"field_card_image_front";a:0:{}}}i:29;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Ceremonious Rejection";s:22:"field_card_image_front";a:0:{}}}i:30;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Crucible of Worlds";s:22:"field_card_image_front";a:0:{}}}i:31;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Disdainful Stroke";s:22:"field_card_image_front";a:0:{}}}i:32;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Dispel";s:22:"field_card_image_front";a:0:{}}}i:33;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Mindbreak Trap";s:22:"field_card_image_front";a:0:{}}}i:34;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Rest in Peace";s:22:"field_card_image_front";a:0:{}}}i:35;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Settle the Wreckage";s:22:"field_card_image_front";a:0:{}}}i:36;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Stony Silence";s:22:"field_card_image_front";a:0:{}}}i:37;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Timely Reinforcements";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['mcwinsauce_-'] = {"manacost":{"labels":[0,1,2,3,4,5],"counts":[25,11,19,9,9,2]},"color":{"colors":["#91d4f7","#ffd778","#ffffda"],"labels":["Blue","Multi-Colored","White"],"counts":[26,6,17],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/blue.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/multiple.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/white.png"],"multicolors":["white","blue"]},"type":{"colors":["#555555","#777777","#dddddd","#cccccc","#888888","#666666","#eeeeee"],"labels":["Land","Creature","Instant","Enchantment","Planeswalker","Sorcery","Artifact"],"counts":[25,3,18,14,4,10,1],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/planes.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png"]}};
+})(jQuery);
+
+
+
+
+
+mtgsota (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Creature (29)
+
+4
+Burning-Tree Emissary
+
+
+4
+Flameblade Adept
+
+
+2
+Flamewake Phoenix
+
+
+4
+Hollow One
+
+
+3
+Hooting Mandrills
+
+
+4
+Reckless Bushwhacker
+
+
+4
+Street Wraith
+
+
+4
+Vengevine
+
+
+
+Sorcery (8)
+
+4
+Faithless Looting
+
+
+4
+Goblin Lore
+
+
+
+Instant (4)
+
+4
+Lightning Bolt
+
+
+
+Land (19)
+
+4
+Bloodstained Mire
+
+
+3
+Copperline Gorge
+
+
+1
+Forest
+
+
+4
+Mountain
+
+
+3
+Stomping Ground
+
+
+4
+Wooded Foothills
+
+
+60 Cards 
+
+
+Sideboard (15)
+
+2
+Ancient Grudge
+
+
+2
+Blood Moon
+
+
+2
+Engineered Explosives
+
+
+2
+Grim Lavamancer
+
+
+4
+Leyline of the Void
+
+
+1
+Lightning Axe
+
+
+2
+Shapers' Sanctuary
+
+
+
+
+Black (8)
+
+4
+Street Wraith
+
+
+4
+Leyline of the Void
+
+
+
+Red (29)
+
+4
+Flameblade Adept
+
+
+2
+Flamewake Phoenix
+
+
+4
+Reckless Bushwhacker
+
+
+4
+Faithless Looting
+
+
+4
+Goblin Lore
+
+
+4
+Lightning Bolt
+
+
+2
+Ancient Grudge
+
+
+2
+Blood Moon
+
+
+2
+Grim Lavamancer
+
+
+1
+Lightning Axe
+
+
+
+Green (9)
+
+3
+Hooting Mandrills
+
+
+4
+Vengevine
+
+
+2
+Shapers' Sanctuary
+
+
+
+Multi colored (4)
+
+4
+Burning-Tree Emissary
+
+
+
+Colorless (25)
+
+4
+Bloodstained Mire
+
+
+3
+Copperline Gorge
+
+
+1
+Forest
+
+
+4
+Mountain
+
+
+3
+Stomping Ground
+
+
+4
+Wooded Foothills
+
+
+4
+Hollow One
+
+
+2
+Engineered Explosives
+
+
+75 Cards 
+
+
+
+1 (17)
+
+4
+Flameblade Adept
+
+
+4
+Faithless Looting
+
+
+4
+Lightning Bolt
+
+
+2
+Grim Lavamancer
+
+
+1
+Lightning Axe
+
+
+2
+Shapers' Sanctuary
+
+
+
+2 (10)
+
+4
+Burning-Tree Emissary
+
+
+4
+Goblin Lore
+
+
+2
+Ancient Grudge
+
+
+
+3 (8)
+
+2
+Flamewake Phoenix
+
+
+4
+Reckless Bushwhacker
+
+
+2
+Blood Moon
+
+
+
+4 (8)
+
+4
+Vengevine
+
+
+4
+Leyline of the Void
+
+
+
+5 (8)
+
+4
+Hollow One
+
+
+4
+Street Wraith
+
+
+
+6 (3)
+
+3
+Hooting Mandrills
+
+
+54 Cards 
+
+
+
+Common (18)
+
+1
+Forest
+
+
+4
+Mountain
+
+
+3
+Hooting Mandrills
+
+
+4
+Street Wraith
+
+
+4
+Faithless Looting
+
+
+2
+Ancient Grudge
+
+
+
+Uncommon (21)
+
+4
+Burning-Tree Emissary
+
+
+4
+Flameblade Adept
+
+
+4
+Reckless Bushwhacker
+
+
+4
+Goblin Lore
+
+
+4
+Lightning Bolt
+
+
+1
+Lightning Axe
+
+
+
+Rare (21)
+
+3
+Copperline Gorge
+
+
+2
+Flamewake Phoenix
+
+
+4
+Hollow One
+
+
+2
+Blood Moon
+
+
+2
+Engineered Explosives
+
+
+2
+Grim Lavamancer
+
+
+4
+Leyline of the Void
+
+
+2
+Shapers' Sanctuary
+
+
+
+Mythic (15)
+
+4
+Bloodstained Mire
+
+
+3
+Stomping Ground
+
+
+4
+Wooded Foothills
+
+
+4
+Vengevine
+
+
+75 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:24:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Bloodstained Mire";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Copperline Gorge";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Forest";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:8:"Mountain";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Stomping Ground";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Wooded Foothills";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Burning-Tree Emissary";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Flameblade Adept";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Flamewake Phoenix";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Hollow One";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Hooting Mandrills";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Reckless Bushwhacker";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Street Wraith";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Vengevine";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Faithless Looting";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Goblin Lore";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Lightning Bolt";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Ancient Grudge";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Blood Moon";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Engineered Explosives";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Grim Lavamancer";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Leyline of the Void";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Lightning Axe";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Shapers' Sanctuary";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['mtgsota_-'] = {"manacost":{"labels":[0,1,2,3,4,5,6],"counts":[21,17,10,8,8,8,3]},"color":{"colors":["#ffd778","#f28f78","#7dcd98","#515151"],"labels":["Multi-Colored","Red","Green","Black"],"counts":[4,29,9,8],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/multiple.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/red.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/green.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/black.png"],"multicolors":["red","green"]},"type":{"colors":["#555555","#777777","#666666","#dddddd","#cccccc","#eeeeee"],"labels":["Land","Creature","Sorcery","Instant","Enchantment","Artifact"],"counts":[19,31,8,7,8,2],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png"]}};
+})(jQuery);
+
+
+
+
+
+joaoclaudioms (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Creature (23)
+
+4
+Bloodghast
+
+
+4
+Flameblade Adept
+
+
+3
+Flamewake Phoenix
+
+
+4
+Gurmag Angler
+
+
+4
+Hollow One
+
+
+4
+Street Wraith
+
+
+
+Sorcery (14)
+
+4
+Burning Inquiry
+
+
+1
+Collective Brutality
+
+
+4
+Faithless Looting
+
+
+4
+Goblin Lore
+
+
+1
+Insult // Injury
+
+
+
+Instant (4)
+
+4
+Lightning Bolt
+
+
+
+Land (19)
+
+3
+Arid Mesa
+
+
+3
+Blackcleave Cliffs
+
+
+2
+Blood Crypt
+
+
+4
+Bloodstained Mire
+
+
+4
+Mountain
+
+
+1
+Stomping Ground
+
+
+2
+Swamp
+
+
+60 Cards 
+
+
+Sideboard (15)
+
+1
+Collective Brutality
+
+
+3
+Ancient Grudge
+
+
+1
+Big Game Hunter
+
+
+2
+Blood Moon
+
+
+1
+Driven // Despair
+
+
+1
+Fatal Push
+
+
+1
+Grim Lavamancer
+
+
+3
+Nihil Spellbomb
+
+
+2
+Thoughtseize
+
+
+
+
+Black (18)
+
+4
+Bloodghast
+
+
+4
+Gurmag Angler
+
+
+4
+Street Wraith
+
+
+2
+Collective Brutality
+
+
+1
+Big Game Hunter
+
+
+1
+Fatal Push
+
+
+2
+Thoughtseize
+
+
+
+Red (30)
+
+4
+Flameblade Adept
+
+
+3
+Flamewake Phoenix
+
+
+4
+Burning Inquiry
+
+
+4
+Faithless Looting
+
+
+4
+Goblin Lore
+
+
+1
+Insult // Injury
+
+
+4
+Lightning Bolt
+
+
+3
+Ancient Grudge
+
+
+2
+Blood Moon
+
+
+1
+Grim Lavamancer
+
+
+
+Green (1)
+
+1
+Driven // Despair
+
+
+
+Colorless (26)
+
+3
+Arid Mesa
+
+
+3
+Blackcleave Cliffs
+
+
+2
+Blood Crypt
+
+
+4
+Bloodstained Mire
+
+
+4
+Mountain
+
+
+1
+Stomping Ground
+
+
+2
+Swamp
+
+
+4
+Hollow One
+
+
+3
+Nihil Spellbomb
+
+
+75 Cards 
+
+
+
+1 (23)
+
+4
+Flameblade Adept
+
+
+4
+Burning Inquiry
+
+
+4
+Faithless Looting
+
+
+4
+Lightning Bolt
+
+
+1
+Fatal Push
+
+
+1
+Grim Lavamancer
+
+
+3
+Nihil Spellbomb
+
+
+2
+Thoughtseize
+
+
+
+2 (14)
+
+4
+Bloodghast
+
+
+2
+Collective Brutality
+
+
+4
+Goblin Lore
+
+
+3
+Ancient Grudge
+
+
+1
+Driven // Despair
+
+
+
+3 (7)
+
+3
+Flamewake Phoenix
+
+
+1
+Insult // Injury
+
+
+1
+Big Game Hunter
+
+
+2
+Blood Moon
+
+
+
+5 (8)
+
+4
+Hollow One
+
+
+4
+Street Wraith
+
+
+
+7 (4)
+
+4
+Gurmag Angler
+
+
+56 Cards 
+
+
+
+Common (28)
+
+4
+Mountain
+
+
+2
+Swamp
+
+
+4
+Gurmag Angler
+
+
+4
+Street Wraith
+
+
+4
+Burning Inquiry
+
+
+4
+Faithless Looting
+
+
+3
+Ancient Grudge
+
+
+3
+Nihil Spellbomb
+
+
+
+Uncommon (14)
+
+4
+Flameblade Adept
+
+
+4
+Goblin Lore
+
+
+4
+Lightning Bolt
+
+
+1
+Big Game Hunter
+
+
+1
+Fatal Push
+
+
+
+Rare (23)
+
+3
+Blackcleave Cliffs
+
+
+4
+Bloodghast
+
+
+3
+Flamewake Phoenix
+
+
+4
+Hollow One
+
+
+2
+Collective Brutality
+
+
+1
+Insult // Injury
+
+
+2
+Blood Moon
+
+
+1
+Driven // Despair
+
+
+1
+Grim Lavamancer
+
+
+2
+Thoughtseize
+
+
+
+Mythic (10)
+
+3
+Arid Mesa
+
+
+2
+Blood Crypt
+
+
+4
+Bloodstained Mire
+
+
+1
+Stomping Ground
+
+
+75 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:27:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Arid Mesa";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Blackcleave Cliffs";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Blood Crypt";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Bloodstained Mire";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:8:"Mountain";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Stomping Ground";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"2";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:5:"Swamp";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Bloodghast";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Flameblade Adept";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Flamewake Phoenix";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Gurmag Angler";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Hollow One";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Street Wraith";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Burning Inquiry";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Collective Brutality";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Faithless Looting";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Goblin Lore";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Insult // Injury";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"4";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Lightning Bolt";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Ancient Grudge";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Big Game Hunter";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Blood Moon";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Driven // Despair";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Fatal Push";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Grim Lavamancer";s:22:"field_card_image_front";a:0:{}}}i:25;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Nihil Spellbomb";s:22:"field_card_image_front";a:0:{}}}i:26;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Thoughtseize";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['joaoclaudioms_-'] = {"manacost":{"labels":[0,1,2,3,5,7],"counts":[19,23,14,7,8,4]},"color":{"colors":["#515151","#f28f78","#7dcd98"],"labels":["Black","Red","Green"],"counts":[18,30,1],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/black.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/red.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/green.png"],"multicolors":[]},"type":{"colors":["#555555","#777777","#666666","#dddddd","#cccccc","#eeeeee"],"labels":["Land","Creature","Sorcery","Instant","Enchantment","Artifact"],"counts":[19,25,18,8,2,3],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png"]}};
+})(jQuery);
+
+
+
+
+
+          Posted in          MTGO Standings
+          on January 11, 2018        
+
+Share Article
+
+Share
+Tweet
+Share
+
+
+
+
+
+
+
+
+
+FEATURED ARTICLE
+
+
+
+
+
+News
+January 15, 2018
+January 15, 2018 Banned and Restricted Announcement
+Ian Duke
+
+Announcing additions to the banned list for Standard.
+
+Learn More
+
+
+
+
+
+
+
+NEWS
+January 15, 2018
+Core Set 2019 Release Date Changed
+Wizards of the Coast
+
+We're so excited for the release of Core Set 2019, we're moving the release up one week to July 13!
+
+Learn More
+
+
+
+ 
+
+
+
+
+
+
+The city of Orazca is up for grabs! Join in the battle and stake your claim!
+
+
+              Learn More            
+
+
+
+
+
+
+
+Latest MTGO Standings Articles
+
+
+
+
+
+Competitive Vintage Constructed League on 01/14/2018
+
+Competitive Vintage Constructed League
+
+Decklists
+
+Decklists
+
+
+  
+
+                                                
+        
+                    
+            BigBanana (5-0)
+            
+                        
+     ...
+Learn More
+
+
+
+
+
+
+
+
+Competitive Commander Constructed League on 01/14/2018
+
+Competitive Commander Constructed League
+
+Decklists
+
+Decklists
+
+
+  
+
+                                                
+        
+                    
+            sivek (5-0)
+            
+                        
+         ...
+Learn More
+
+
+
+
+
+
+
+
+Articles
+
+Articles
+MTGO Standings Archive
+
+Consult the archives for more articles!
+See All
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+Back to top
+
+
+
+Where to Play and BuyFind a location to buy or playMagic: The Gathering near you.
+
+
+Find Now !
+
+ 
+
+
+
+
+
+Select your language:
+
+
+简体中文繁體中文FrançaisDeutschItaliano日本語한국어Português (Brasil)РусскийEspañolEnglish 
+
+
+Wizards Brand Family
+magic | d&d | wpn | duel masters | avalon hill
+Terms of Use | Code of Conduct | Privacy Policy | Customer Service | Cookies
+© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        We use cookies on this site to enhance your user experience. By clicking any link on this page or by clicking Yes, you are giving your consent for us to set cookies.         (Learn more about cookies)
+
+
+
+Yes, I agree
+No, I want to find out more
+
+
+ 
+
+
+
+
+
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0009/9185.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"574829f0b8","applicationID":"70690007","transactionName":"MVJbMkNUDRcHUEAICggYeAVFXAwKSUNVBgA5WlgIUFIGFjldWwUAOUFQA0ZqEwUBVg==","queueTime":0,"applicationTime":609,"atts":"HRVYRAtOHhk=","errorBeacon":"bam.nr-data.net","agent":""}
+

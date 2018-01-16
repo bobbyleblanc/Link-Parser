@@ -45,7 +45,10 @@ int main()
 
 	for (int i = 0; i < outputData.size(); i++)
 	{
-		write << outputData[i] << ',';
+		if (i < outputData.size() - 1)
+			write << outputData[i] << ',';
+		else
+			write << outputData[i];
 	}
 
 	system("pause");

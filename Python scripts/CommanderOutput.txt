@@ -1,0 +1,3325 @@
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+Competitive Commander Constructed League | MAGIC: THE GATHERING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://magic.wizards.com/modules/system/system.base.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.menus.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.messages.css?p2bde1");
+@import url("https://magic.wizards.com/modules/system/system.theme.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/calendar/css/calendar_multiday.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/date/date_api/date.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?p2bde1");
+@import url("https://magic.wizards.com/modules/field/theme/field.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/mollom/mollom.css?p2bde1");
+@import url("https://magic.wizards.com/modules/node/node.css?p2bde1");
+@import url("https://magic.wizards.com/modules/user/user.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/features/wiz_views_events_calendar/css/idangerous.swiper.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/features/wiz_views_events_calendar/css/idangerous.swiper.scrollbar.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/views/css/views.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ckeditor/css/ckeditor.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ctools/css/ctools.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/ctools/css/modal.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/modal_forms/css/modal_forms_popup.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/contrib/panels/css/panels.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/custom/wiz_npsu/css/npsu.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/modules/custom/wiz_npsu_mtg/css/npsu_mtg.css?p2bde1");
+
+
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/jquery.fancybox.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/jquery-ui-mod.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/owl.carousel.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/scrollbars.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/fonts.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/core.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/header.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/footer.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/page-header.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/medias.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/search.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/decklist.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/articles.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/game-info.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/events.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/community.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/mx.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/sections/immersive.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/sections/interstitials.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/styles-extended.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/legacy.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/legacyStyles.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/geo-blocker.css?p2bde1");
+@import url("https://magic.wizards.com/sites/all/themes/wiz_mtg/css/panorama_viewer.css?p2bde1");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-15020098-13", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "pathToTheme": "sites/all/themes/wiz_mtg" });
+//--><!]]>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"wiz_mtg","theme_token":"EmN4V_PaNxt9h0lbqHGFE56z-S7lwXnCEP-ntHuz1C8","jquery_version":"1.8","js":{"sites\/all\/themes\/wiz_mtg\/js\/ShareButton.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/wiz_bean_content_deck_list.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/masonry.pkgd.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/js\/wiz_autocard.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/js\/jquery.qtip-1.0.0-rc3.min.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/d3.v3.min.js":1,"sites\/all\/modules\/features\/wiz_bean_content_deck_list\/wiz_bean_content_deck_list.charts.js":1,"sites\/all\/modules\/custom\/wiz_autocard\/wiz_decklist_filter\/js\/wiz_decklist_filter.js":1,"sites\/all\/modules\/custom\/wiz_mdn_subscription\/js\/wiz_mdn_subscription.js":1,"sites\/all\/modules\/custom\/wiz_show_period\/js\/moment.min.js":1,"sites\/all\/modules\/custom\/wiz_store_and_event_locator\/js\/wiz_store_and_event_locator.js":1,"sites\/all\/modules\/features\/wiz_views_article_archives\/js\/wiz_views_article_archives.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/idangerous.swiper-2.1.min.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/idangerous.swiper.scrollbar-2.1.js":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/js\/custom.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/contrib\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/custom\/wiz_deletecookies\/js\/deletecookies.js":1,"sites\/all\/modules\/custom\/wiz_deletecookies\/js\/jquery.cookie.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"https:\/\/accounts.wizards.com\/Widget\/Widget.js":1,"sites\/all\/modules\/custom\/wiz_npsu\/js\/npsu_widget.js":1,"sites\/all\/themes\/wiz_mtg\/js\/image-comparison-slider.js":1,"sites\/all\/themes\/wiz_mtg\/js\/country_cdn.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery-ui.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/content-gallery-grid\/modernizr.custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.fancybox.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.scrollbar.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.mmenu.oncanvas.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.columnlist.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/dropdown.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/owl.carousel.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/slick.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/stacktable.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/arketype.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.unveil.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.mCustomScrollbar.concat.min.js":1,"sites\/all\/themes\/wiz_mtg\/js\/lib\/jquery.panorama_viewer.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ABTesting.js":1,"sites\/all\/themes\/wiz_mtg\/js\/GeoBlocker.js":1,"sites\/all\/themes\/wiz_mtg\/js\/StickyVideos.js":1,"sites\/all\/themes\/wiz_mtg\/js\/AudioPlayer.js":1,"sites\/all\/themes\/wiz_mtg\/js\/Card.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardCallout.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardPresentation.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CardsLayout.js":1,"sites\/all\/themes\/wiz_mtg\/js\/CoverBackground.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedCards.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedEvents.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedHeader.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedIcons.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedPodcasts.js":1,"sites\/all\/themes\/wiz_mtg\/js\/FeaturedProducts.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ImagesAnimator.js":1,"sites\/all\/themes\/wiz_mtg\/js\/immersive-experience-homepage-custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/immersive-experience-event-custom.js":1,"sites\/all\/themes\/wiz_mtg\/js\/interstitials.js":1,"sites\/all\/themes\/wiz_mtg\/js\/community.js":1,"sites\/all\/themes\/wiz_mtg\/js\/inline-features.js":1,"sites\/all\/themes\/wiz_mtg\/js\/MainMenu.js":1,"sites\/all\/themes\/wiz_mtg\/js\/MediaGalleries.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ParallaxBackground.js":1,"sites\/all\/themes\/wiz_mtg\/js\/PodcastListItem.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ProductFeatured.js":1,"sites\/all\/themes\/wiz_mtg\/js\/ShowHideListItems.js":1,"sites\/all\/themes\/wiz_mtg\/js\/TabbedFeatures.js":1,"sites\/all\/themes\/wiz_mtg\/js\/TopRankings.js":1,"sites\/all\/themes\/wiz_mtg\/js\/VideoPlaylist.js":1,"sites\/all\/themes\/wiz_mtg\/js\/VideoPlaylistMosaic.js":1,"sites\/all\/themes\/wiz_mtg\/js\/core.js":1,"sites\/all\/themes\/wiz_mtg\/js\/mx.js":1,"https:\/\/cdn.datatables.net\/1.10.15\/js\/jquery.dataTables.min.js":1,"https:\/\/cdn.datatables.net\/responsive\/2.1.1\/js\/dataTables.responsive.min.js":1,"https:\/\/www.youtube.com\/iframe_api":1,"https:\/\/player.twitch.tv\/js\/embed\/v1.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/css\/idangerous.swiper.css":1,"sites\/all\/modules\/features\/wiz_views_events_calendar\/css\/idangerous.swiper.scrollbar.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/wiz_npsu\/css\/npsu.css":1,"sites\/all\/modules\/custom\/wiz_npsu_mtg\/css\/npsu_mtg.css":1,"sites\/all\/themes\/wiz_mtg\/css\/jquery.fancybox.css":1,"sites\/all\/themes\/wiz_mtg\/css\/jquery-ui-mod.css":1,"sites\/all\/themes\/wiz_mtg\/css\/owl.carousel.css":1,"sites\/all\/themes\/wiz_mtg\/css\/scrollbars.css":1,"sites\/all\/themes\/wiz_mtg\/css\/fonts.css":1,"sites\/all\/themes\/wiz_mtg\/css\/core.css":1,"sites\/all\/themes\/wiz_mtg\/css\/header.css":1,"sites\/all\/themes\/wiz_mtg\/css\/footer.css":1,"sites\/all\/themes\/wiz_mtg\/css\/page-header.css":1,"sites\/all\/themes\/wiz_mtg\/css\/medias.css":1,"sites\/all\/themes\/wiz_mtg\/css\/search.css":1,"sites\/all\/themes\/wiz_mtg\/css\/decklist.css":1,"sites\/all\/themes\/wiz_mtg\/css\/articles.css":1,"sites\/all\/themes\/wiz_mtg\/css\/game-info.css":1,"sites\/all\/themes\/wiz_mtg\/css\/events.css":1,"sites\/all\/themes\/wiz_mtg\/css\/community.css":1,"sites\/all\/themes\/wiz_mtg\/css\/mx.css":1,"sites\/all\/themes\/wiz_mtg\/css\/sections\/immersive.css":1,"sites\/all\/themes\/wiz_mtg\/css\/sections\/interstitials.css":1,"sites\/all\/themes\/wiz_mtg\/css\/styles-extended.css":1,"sites\/all\/themes\/wiz_mtg\/css\/legacy.css":1,"sites\/all\/themes\/wiz_mtg\/css\/legacyStyles.css":1,"sites\/all\/themes\/wiz_mtg\/css\/_theme-override.css":1,"sites\/all\/themes\/wiz_mtg\/css\/geo-blocker.css":1,"sites\/all\/themes\/wiz_mtg\/css\/panorama_viewer.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic":1,"https:\/\/cdn.datatables.net\/1.10.15\/css\/jquery.dataTables.min.css":1,"https:\/\/cdn.datatables.net\/responsive\/2.1.1\/css\/responsive.dataTables.min.css":1}},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":330,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/magic.wizards.com\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"wiz_core":{"wiz_core_switch_in_days":14,"wiz_core_switch_in_visits":10,"wiz_core_switch_b_path":"home"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"npsu_widget":{"enabled":true,"logged_in":"false"},"urlIsAjaxTrusted":{"\/en\/articles\/archive\/mtgo-standings\/competitive-commander-constructed-league-2018-01-11":true}});
+//--><!]]>
+
+
+      @media all {
+        header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png) no-repeat;
+          background-size: 100% 100px;
+
+        }
+        #mobile-menu .header .logo a {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 100%;
+        }
+        #page.snap-menu header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 50px;
+        }
+      }
+      @media (max-width: 1200px) {
+        header .home span {
+          background: url(https://magic.wizards.com/sites/mtg/files/logo-magic.png);
+          background-size: 100% 50px;
+        }
+      }
+    
+
+
+
+  /* Interstitials variables */
+  var Interstitials = {
+    list: [
+                        ]
+  };
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Locator Card Database Sign In | Sign Up 
+
+
+
+
+
+
+ 
+
+
+
+Magic the Gathering
+
+NEW TO MAGICjQuery('#SignInButton').attr('onclick', 'return wotcAccountWidget.showLoginModal();');New To Magic Home
+Strategy
+Lore
+Community
+
+PRODUCTSFEATURED RELEASE
+COMING SOON
+MTG ARENA
+MAGIC DUELS
+MAGIC ONLINE
+CARD SET ARCHIVE
+
+GAMEPLAYGameplay Home
+ABOUT THE GAME
+HOW TO PLAY
+HOW TO BUILD A DECK
+IMPROVE YOUR GAME
+RULES & FORMATS
+
+STORYMAGIC STORY
+PLANESWALKERS
+PLANES
+
+EVENTSEVENTS
+EVENTS HOME
+WHAT IS ORGANIZED PLAY?
+EVENT TYPES
+COVERAGECOVERAGE ARCHIVE
+TOP PLAYERS
+
+SCHEDULES
+RESOURCESPLANESWALKER POINTS
+JUDGES
+
+
+ARTICLESARTICLES
+ARTICLES HOME
+COLUMNSCOLUMNISTS
+MAKING MAGIC
+MAGIC STORY
+TOP DECKS
+ORGANIZED PLAY
+LATEST DEVELOPMENTS
+
+ARCHIVES
+WINNING DECKS
+MEDIAPODCASTS
+WALLPAPERS
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ARTICLES HOME
+ARCHIVES
+MTGO Standings
+
+Competitive Commander Constructed League
+
+      Posted in      MTGO Standings
+      on January 11, 2018    
+
+
+
+
+Share Article
+
+Share
+Tweet
+Share
+
+
+
+
+
+
+Decklists
+
+Decklists
+
+
+
+
+
+Do0mSwitch (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Planeswalker (2)
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Liliana of the Veil
+
+
+
+Creature (16)
+
+1
+Dryad Arbor
+
+
+1
+Baleful Strix
+
+
+1
+Birds of Paradise
+
+
+1
+Dark Confidant
+
+
+1
+Deathrite Shaman
+
+
+1
+Eternal Witness
+
+
+1
+Jace, Vryn's Prodigy
+
+
+1
+Lore Broker
+
+
+1
+Lotus Cobra
+
+
+1
+Notion Thief
+
+
+1
+Oracle of Mul Daya
+
+
+1
+Primeval Titan
+
+
+1
+Ramunap Excavator
+
+
+1
+Snapcaster Mage
+
+
+1
+Tireless Tracker
+
+
+1
+Titania, Protector of Argoth
+
+
+
+Sorcery (20)
+
+1
+Collective Brutality
+
+
+1
+Damnation
+
+
+1
+Dark Petition
+
+
+1
+Day's Undoing
+
+
+1
+Duress
+
+
+1
+Gitaxian Probe
+
+
+1
+Green Sun's Zenith
+
+
+1
+Inquisition of Kozilek
+
+
+1
+Maelstrom Pulse
+
+
+1
+Nature's Lore
+
+
+1
+Serum Visions
+
+
+1
+Temporal Manipulation
+
+
+1
+Thoughtseize
+
+
+1
+Three Visits
+
+
+1
+Time Spiral
+
+
+1
+Time Warp
+
+
+1
+Timetwister
+
+
+1
+Toxic Deluge
+
+
+1
+Traverse the Ulvenwald
+
+
+1
+Walk the Aeons
+
+
+
+Instant (13)
+
+1
+Abrupt Decay
+
+
+1
+Counterspell
+
+
+1
+Cryptic Command
+
+
+1
+Daze
+
+
+1
+Dismember
+
+
+1
+Fatal Push
+
+
+1
+Force of Will
+
+
+1
+Force Spike
+
+
+1
+Mental Misstep
+
+
+1
+Murderous Cut
+
+
+1
+Snap
+
+
+1
+Spell Pierce
+
+
+1
+Tainted Pact
+
+
+
+Artifact (4)
+
+1
+Anvil of Bogardan
+
+
+1
+Chrome Mox
+
+
+1
+Crucible of Worlds
+
+
+1
+Mox Diamond
+
+
+
+Enchantment (5)
+
+1
+Engineered Plague
+
+
+1
+Exploration
+
+
+1
+Future Sight
+
+
+1
+Lignify
+
+
+1
+Sylvan Library
+
+
+
+Land (39)
+
+1
+Ancient Tomb
+
+
+1
+Bayou
+
+
+1
+Bloodstained Mire
+
+
+1
+Breeding Pool
+
+
+1
+Cavern of Souls
+
+
+1
+Cephalid Coliseum
+
+
+1
+Command Tower
+
+
+1
+Dust Bowl
+
+
+1
+Flooded Grove
+
+
+1
+Flooded Strand
+
+
+1
+Forest
+
+
+1
+Geier Reach Sanitarium
+
+
+1
+Hinterland Harbor
+
+
+3
+Island
+
+
+1
+Mana Confluence
+
+
+1
+Marsh Flats
+
+
+1
+Mikokoro, Center of the Sea
+
+
+1
+Misty Rainforest
+
+
+1
+Overgrown Tomb
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+1
+Snow-Covered Forest
+
+
+1
+Snow-Covered Island
+
+
+1
+Snow-Covered Swamp
+
+
+1
+Sunken Hollow
+
+
+1
+Sunken Ruins
+
+
+1
+Temple of Deceit
+
+
+1
+Temple of Malady
+
+
+1
+Temple of Mystery
+
+
+1
+Tropical Island
+
+
+1
+Underground River
+
+
+1
+Underground Sea
+
+
+1
+Urborg, Tomb of Yawgmoth
+
+
+1
+Verdant Catacombs
+
+
+1
+Wasteland
+
+
+1
+Watery Grave
+
+
+1
+Wooded Foothills
+
+
+99 Cards 
+
+
+Sideboard (1)
+
+1
+Leovold, Emissary of Trest
+
+
+
+
+Blue (21)
+
+1
+Jace, Vryn's Prodigy
+
+
+1
+Lore Broker
+
+
+1
+Snapcaster Mage
+
+
+1
+Counterspell
+
+
+1
+Cryptic Command
+
+
+1
+Day's Undoing
+
+
+1
+Daze
+
+
+1
+Force of Will
+
+
+1
+Force Spike
+
+
+1
+Future Sight
+
+
+1
+Gitaxian Probe
+
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Mental Misstep
+
+
+1
+Serum Visions
+
+
+1
+Snap
+
+
+1
+Spell Pierce
+
+
+1
+Temporal Manipulation
+
+
+1
+Time Spiral
+
+
+1
+Time Warp
+
+
+1
+Timetwister
+
+
+1
+Walk the Aeons
+
+
+
+Black (14)
+
+1
+Dark Confidant
+
+
+1
+Collective Brutality
+
+
+1
+Damnation
+
+
+1
+Dark Petition
+
+
+1
+Dismember
+
+
+1
+Duress
+
+
+1
+Engineered Plague
+
+
+1
+Fatal Push
+
+
+1
+Inquisition of Kozilek
+
+
+1
+Liliana of the Veil
+
+
+1
+Murderous Cut
+
+
+1
+Tainted Pact
+
+
+1
+Thoughtseize
+
+
+1
+Toxic Deluge
+
+
+
+Green (15)
+
+1
+Birds of Paradise
+
+
+1
+Eternal Witness
+
+
+1
+Lotus Cobra
+
+
+1
+Oracle of Mul Daya
+
+
+1
+Primeval Titan
+
+
+1
+Ramunap Excavator
+
+
+1
+Tireless Tracker
+
+
+1
+Titania, Protector of Argoth
+
+
+1
+Exploration
+
+
+1
+Green Sun's Zenith
+
+
+1
+Lignify
+
+
+1
+Nature's Lore
+
+
+1
+Sylvan Library
+
+
+1
+Three Visits
+
+
+1
+Traverse the Ulvenwald
+
+
+
+Multi colored (6)
+
+1
+Baleful Strix
+
+
+1
+Deathrite Shaman
+
+
+1
+Notion Thief
+
+
+1
+Abrupt Decay
+
+
+1
+Maelstrom Pulse
+
+
+1
+Leovold, Emissary of Trest
+
+
+
+Colorless (44)
+
+1
+Ancient Tomb
+
+
+1
+Bayou
+
+
+1
+Bloodstained Mire
+
+
+1
+Breeding Pool
+
+
+1
+Cavern of Souls
+
+
+1
+Cephalid Coliseum
+
+
+1
+Command Tower
+
+
+1
+Dryad Arbor
+
+
+1
+Dust Bowl
+
+
+1
+Flooded Grove
+
+
+1
+Flooded Strand
+
+
+1
+Forest
+
+
+1
+Geier Reach Sanitarium
+
+
+1
+Hinterland Harbor
+
+
+3
+Island
+
+
+1
+Mana Confluence
+
+
+1
+Marsh Flats
+
+
+1
+Mikokoro, Center of the Sea
+
+
+1
+Misty Rainforest
+
+
+1
+Overgrown Tomb
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+1
+Snow-Covered Forest
+
+
+1
+Snow-Covered Island
+
+
+1
+Snow-Covered Swamp
+
+
+1
+Sunken Hollow
+
+
+1
+Sunken Ruins
+
+
+1
+Temple of Deceit
+
+
+1
+Temple of Malady
+
+
+1
+Temple of Mystery
+
+
+1
+Tropical Island
+
+
+1
+Underground River
+
+
+1
+Underground Sea
+
+
+1
+Urborg, Tomb of Yawgmoth
+
+
+1
+Verdant Catacombs
+
+
+1
+Wasteland
+
+
+1
+Watery Grave
+
+
+1
+Wooded Foothills
+
+
+1
+Anvil of Bogardan
+
+
+1
+Chrome Mox
+
+
+1
+Crucible of Worlds
+
+
+1
+Mox Diamond
+
+
+100 Cards 
+
+
+
+1 (14)
+
+1
+Birds of Paradise
+
+
+1
+Deathrite Shaman
+
+
+1
+Duress
+
+
+1
+Exploration
+
+
+1
+Fatal Push
+
+
+1
+Force Spike
+
+
+1
+Gitaxian Probe
+
+
+1
+Green Sun's Zenith
+
+
+1
+Inquisition of Kozilek
+
+
+1
+Mental Misstep
+
+
+1
+Serum Visions
+
+
+1
+Spell Pierce
+
+
+1
+Thoughtseize
+
+
+1
+Traverse the Ulvenwald
+
+
+
+2 (17)
+
+1
+Baleful Strix
+
+
+1
+Dark Confidant
+
+
+1
+Jace, Vryn's Prodigy
+
+
+1
+Lore Broker
+
+
+1
+Lotus Cobra
+
+
+1
+Snapcaster Mage
+
+
+1
+Abrupt Decay
+
+
+1
+Anvil of Bogardan
+
+
+1
+Collective Brutality
+
+
+1
+Counterspell
+
+
+1
+Daze
+
+
+1
+Lignify
+
+
+1
+Nature's Lore
+
+
+1
+Snap
+
+
+1
+Sylvan Library
+
+
+1
+Tainted Pact
+
+
+1
+Three Visits
+
+
+
+3 (12)
+
+1
+Eternal Witness
+
+
+1
+Ramunap Excavator
+
+
+1
+Tireless Tracker
+
+
+1
+Crucible of Worlds
+
+
+1
+Day's Undoing
+
+
+1
+Dismember
+
+
+1
+Engineered Plague
+
+
+1
+Liliana of the Veil
+
+
+1
+Maelstrom Pulse
+
+
+1
+Timetwister
+
+
+1
+Toxic Deluge
+
+
+1
+Leovold, Emissary of Trest
+
+
+
+4 (5)
+
+1
+Notion Thief
+
+
+1
+Oracle of Mul Daya
+
+
+1
+Cryptic Command
+
+
+1
+Damnation
+
+
+1
+Jace, the Mind Sculptor
+
+
+
+5 (7)
+
+1
+Titania, Protector of Argoth
+
+
+1
+Dark Petition
+
+
+1
+Force of Will
+
+
+1
+Future Sight
+
+
+1
+Murderous Cut
+
+
+1
+Temporal Manipulation
+
+
+1
+Time Warp
+
+
+
+6 (3)
+
+1
+Primeval Titan
+
+
+1
+Time Spiral
+
+
+1
+Walk the Aeons
+
+
+58 Cards 
+
+
+
+Common (17)
+
+1
+Command Tower
+
+
+1
+Forest
+
+
+3
+Island
+
+
+1
+Snow-Covered Forest
+
+
+1
+Snow-Covered Island
+
+
+1
+Snow-Covered Swamp
+
+
+1
+Daze
+
+
+1
+Duress
+
+
+1
+Force Spike
+
+
+1
+Gitaxian Probe
+
+
+1
+Lignify
+
+
+1
+Nature's Lore
+
+
+1
+Snap
+
+
+1
+Spell Pierce
+
+
+1
+Three Visits
+
+
+
+Uncommon (10)
+
+1
+Baleful Strix
+
+
+1
+Eternal Witness
+
+
+1
+Lore Broker
+
+
+1
+Counterspell
+
+
+1
+Dismember
+
+
+1
+Engineered Plague
+
+
+1
+Fatal Push
+
+
+1
+Mental Misstep
+
+
+1
+Murderous Cut
+
+
+1
+Serum Visions
+
+
+
+Rare (41)
+
+1
+Bayou
+
+
+1
+Cavern of Souls
+
+
+1
+Geier Reach Sanitarium
+
+
+1
+Hinterland Harbor
+
+
+1
+Mikokoro, Center of the Sea
+
+
+1
+Temple of Deceit
+
+
+1
+Temple of Malady
+
+
+1
+Temple of Mystery
+
+
+1
+Tropical Island
+
+
+1
+Underground River
+
+
+1
+Underground Sea
+
+
+1
+Urborg, Tomb of Yawgmoth
+
+
+1
+Birds of Paradise
+
+
+1
+Deathrite Shaman
+
+
+1
+Notion Thief
+
+
+1
+Oracle of Mul Daya
+
+
+1
+Ramunap Excavator
+
+
+1
+Snapcaster Mage
+
+
+1
+Tireless Tracker
+
+
+1
+Abrupt Decay
+
+
+1
+Anvil of Bogardan
+
+
+1
+Chrome Mox
+
+
+1
+Collective Brutality
+
+
+1
+Crucible of Worlds
+
+
+1
+Cryptic Command
+
+
+1
+Damnation
+
+
+1
+Dark Petition
+
+
+1
+Exploration
+
+
+1
+Force of Will
+
+
+1
+Future Sight
+
+
+1
+Inquisition of Kozilek
+
+
+1
+Maelstrom Pulse
+
+
+1
+Sylvan Library
+
+
+1
+Tainted Pact
+
+
+1
+Temporal Manipulation
+
+
+1
+Thoughtseize
+
+
+1
+Time Spiral
+
+
+1
+Timetwister
+
+
+1
+Toxic Deluge
+
+
+1
+Traverse the Ulvenwald
+
+
+1
+Walk the Aeons
+
+
+
+Mythic (32)
+
+1
+Ancient Tomb
+
+
+1
+Bloodstained Mire
+
+
+1
+Breeding Pool
+
+
+1
+Cephalid Coliseum
+
+
+1
+Dryad Arbor
+
+
+1
+Dust Bowl
+
+
+1
+Flooded Grove
+
+
+1
+Flooded Strand
+
+
+1
+Mana Confluence
+
+
+1
+Marsh Flats
+
+
+1
+Misty Rainforest
+
+
+1
+Overgrown Tomb
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+1
+Sunken Hollow
+
+
+1
+Sunken Ruins
+
+
+1
+Verdant Catacombs
+
+
+1
+Wasteland
+
+
+1
+Watery Grave
+
+
+1
+Wooded Foothills
+
+
+1
+Dark Confidant
+
+
+1
+Jace, Vryn's Prodigy
+
+
+1
+Lotus Cobra
+
+
+1
+Primeval Titan
+
+
+1
+Titania, Protector of Argoth
+
+
+1
+Day's Undoing
+
+
+1
+Green Sun's Zenith
+
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Liliana of the Veil
+
+
+1
+Mox Diamond
+
+
+1
+Time Warp
+
+
+1
+Leovold, Emissary of Trest
+
+
+100 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:98:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Ancient Tomb";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:5:"Bayou";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Bloodstained Mire";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Breeding Pool";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Cavern of Souls";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Cephalid Coliseum";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Command Tower";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Dryad Arbor";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Dust Bowl";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Flooded Grove";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Flooded Strand";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Forest";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:22:"Geier Reach Sanitarium";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Hinterland Harbor";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"3";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Island";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Mana Confluence";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Marsh Flats";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:27:"Mikokoro, Center of the Sea";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Misty Rainforest";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Overgrown Tomb";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Polluted Delta";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Scalding Tarn";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Snow-Covered Forest";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Snow-Covered Island";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Snow-Covered Swamp";s:22:"field_card_image_front";a:0:{}}}i:25;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Sunken Hollow";s:22:"field_card_image_front";a:0:{}}}i:26;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Sunken Ruins";s:22:"field_card_image_front";a:0:{}}}i:27;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Temple of Deceit";s:22:"field_card_image_front";a:0:{}}}i:28;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Temple of Malady";s:22:"field_card_image_front";a:0:{}}}i:29;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Temple of Mystery";s:22:"field_card_image_front";a:0:{}}}i:30;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Tropical Island";s:22:"field_card_image_front";a:0:{}}}i:31;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Underground River";s:22:"field_card_image_front";a:0:{}}}i:32;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Underground Sea";s:22:"field_card_image_front";a:0:{}}}i:33;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:24:"Urborg, Tomb of Yawgmoth";s:22:"field_card_image_front";a:0:{}}}i:34;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Verdant Catacombs";s:22:"field_card_image_front";a:0:{}}}i:35;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Wasteland";s:22:"field_card_image_front";a:0:{}}}i:36;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Watery Grave";s:22:"field_card_image_front";a:0:{}}}i:37;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Wooded Foothills";s:22:"field_card_image_front";a:0:{}}}i:38;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Baleful Strix";s:22:"field_card_image_front";a:0:{}}}i:39;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Birds of Paradise";s:22:"field_card_image_front";a:0:{}}}i:40;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Dark Confidant";s:22:"field_card_image_front";a:0:{}}}i:41;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Deathrite Shaman";s:22:"field_card_image_front";a:0:{}}}i:42;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Eternal Witness";s:22:"field_card_image_front";a:0:{}}}i:43;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Jace, Vryn's Prodigy";s:22:"field_card_image_front";a:0:{}}}i:44;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Lore Broker";s:22:"field_card_image_front";a:0:{}}}i:45;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Lotus Cobra";s:22:"field_card_image_front";a:0:{}}}i:46;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Notion Thief";s:22:"field_card_image_front";a:0:{}}}i:47;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Oracle of Mul Daya";s:22:"field_card_image_front";a:0:{}}}i:48;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Primeval Titan";s:22:"field_card_image_front";a:0:{}}}i:49;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Ramunap Excavator";s:22:"field_card_image_front";a:0:{}}}i:50;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Snapcaster Mage";s:22:"field_card_image_front";a:0:{}}}i:51;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Tireless Tracker";s:22:"field_card_image_front";a:0:{}}}i:52;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:28:"Titania, Protector of Argoth";s:22:"field_card_image_front";a:0:{}}}i:53;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Abrupt Decay";s:22:"field_card_image_front";a:0:{}}}i:54;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Anvil of Bogardan";s:22:"field_card_image_front";a:0:{}}}i:55;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Chrome Mox";s:22:"field_card_image_front";a:0:{}}}i:56;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Collective Brutality";s:22:"field_card_image_front";a:0:{}}}i:57;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Counterspell";s:22:"field_card_image_front";a:0:{}}}i:58;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Crucible of Worlds";s:22:"field_card_image_front";a:0:{}}}i:59;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Cryptic Command";s:22:"field_card_image_front";a:0:{}}}i:60;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Damnation";s:22:"field_card_image_front";a:0:{}}}i:61;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Dark Petition";s:22:"field_card_image_front";a:0:{}}}i:62;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Day's Undoing";s:22:"field_card_image_front";a:0:{}}}i:63;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:4:"Daze";s:22:"field_card_image_front";a:0:{}}}i:64;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Dismember";s:22:"field_card_image_front";a:0:{}}}i:65;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Duress";s:22:"field_card_image_front";a:0:{}}}i:66;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Engineered Plague";s:22:"field_card_image_front";a:0:{}}}i:67;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Exploration";s:22:"field_card_image_front";a:0:{}}}i:68;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Fatal Push";s:22:"field_card_image_front";a:0:{}}}i:69;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Force of Will";s:22:"field_card_image_front";a:0:{}}}i:70;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Force Spike";s:22:"field_card_image_front";a:0:{}}}i:71;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Future Sight";s:22:"field_card_image_front";a:0:{}}}i:72;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Gitaxian Probe";s:22:"field_card_image_front";a:0:{}}}i:73;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Green Sun's Zenith";s:22:"field_card_image_front";a:0:{}}}i:74;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:22:"Inquisition of Kozilek";s:22:"field_card_image_front";a:0:{}}}i:75;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:23:"Jace, the Mind Sculptor";s:22:"field_card_image_front";a:0:{}}}i:76;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Lignify";s:22:"field_card_image_front";a:0:{}}}i:77;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Liliana of the Veil";s:22:"field_card_image_front";a:0:{}}}i:78;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Maelstrom Pulse";s:22:"field_card_image_front";a:0:{}}}i:79;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Mental Misstep";s:22:"field_card_image_front";a:0:{}}}i:80;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Mox Diamond";s:22:"field_card_image_front";a:0:{}}}i:81;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Murderous Cut";s:22:"field_card_image_front";a:0:{}}}i:82;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Nature's Lore";s:22:"field_card_image_front";a:0:{}}}i:83;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Serum Visions";s:22:"field_card_image_front";a:0:{}}}i:84;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:4:"Snap";s:22:"field_card_image_front";a:0:{}}}i:85;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Spell Pierce";s:22:"field_card_image_front";a:0:{}}}i:86;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Sylvan Library";s:22:"field_card_image_front";a:0:{}}}i:87;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Tainted Pact";s:22:"field_card_image_front";a:0:{}}}i:88;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Temporal Manipulation";s:22:"field_card_image_front";a:0:{}}}i:89;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Thoughtseize";s:22:"field_card_image_front";a:0:{}}}i:90;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Three Visits";s:22:"field_card_image_front";a:0:{}}}i:91;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Time Spiral";s:22:"field_card_image_front";a:0:{}}}i:92;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Time Warp";s:22:"field_card_image_front";a:0:{}}}i:93;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Timetwister";s:22:"field_card_image_front";a:0:{}}}i:94;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Toxic Deluge";s:22:"field_card_image_front";a:0:{}}}i:95;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:22:"Traverse the Ulvenwald";s:22:"field_card_image_front";a:0:{}}}i:96;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Walk the Aeons";s:22:"field_card_image_front";a:0:{}}}i:97;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:26:"Leovold, Emissary of Trest";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['domswitch_-'] = {"manacost":{"labels":[0,1,2,3,4,5,6],"counts":[42,14,17,12,5,7,3]},"color":{"colors":["#ffd778","#7dcd98","#515151","#91d4f7"],"labels":["Multi-Colored","Green","Black","Blue"],"counts":[6,15,14,21],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/multiple.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/green.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/black.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/blue.png"],"multicolors":["blue","black","green"]},"type":{"colors":["#555555","#777777","#dddddd","#eeeeee","#666666","#cccccc","#888888"],"labels":["Land","Creature","Instant","Artifact","Sorcery","Enchantment","Planeswalker"],"counts":[39,17,13,4,20,5,2],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/planes.png"]}};
+})(jQuery);
+
+
+
+
+
+someguy604 (5-0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Decklist
+Stats
+Sample Hand
+
+
+
+
+
+Sort by:
+OverviewColorCostRarity
+
+
+
+
+Planeswalker (3)
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Teferi, Temporal Archmage
+
+
+1
+Ugin, the Spirit Dragon
+
+
+
+Creature (3)
+
+1
+Curious Homunculus
+
+
+1
+Emrakul, the Promised End
+
+
+1
+Snapcaster Mage
+
+
+
+Sorcery (16)
+
+1
+Ancestral Vision
+
+
+1
+Bribery
+
+
+1
+Capture of Jingzhou
+
+
+1
+Compulsive Research
+
+
+1
+Deep Analysis
+
+
+1
+Gitaxian Probe
+
+
+1
+Merchant Scroll
+
+
+1
+Pieces of the Puzzle
+
+
+1
+Sleight of Hand
+
+
+1
+Temporal Fissure
+
+
+1
+Temporal Manipulation
+
+
+1
+Temporal Trespass
+
+
+1
+Time Spiral
+
+
+1
+Time Warp
+
+
+1
+Timetwister
+
+
+1
+Walk the Aeons
+
+
+
+Instant (30)
+
+1
+Anticipate
+
+
+1
+Counterspell
+
+
+1
+Cryptic Command
+
+
+1
+Cyclonic Rift
+
+
+1
+Engulf the Shore
+
+
+1
+Fact or Fiction
+
+
+1
+Flash of Insight
+
+
+1
+Force of Will
+
+
+1
+Force Spike
+
+
+1
+Frantic Search
+
+
+1
+Glimmer of Genius
+
+
+1
+High Tide
+
+
+1
+Impulse
+
+
+1
+Into the Roil
+
+
+1
+Intuition
+
+
+1
+Mana Leak
+
+
+1
+Memory Lapse
+
+
+1
+Mental Note
+
+
+1
+Mystic Confluence
+
+
+1
+Negate
+
+
+1
+Obsessive Search
+
+
+1
+Opt
+
+
+1
+Pull from Tomorrow
+
+
+1
+Reality Shift
+
+
+1
+Remand
+
+
+1
+Repeal
+
+
+1
+Snap
+
+
+1
+Think Twice
+
+
+1
+Thought Scour
+
+
+1
+Whir of Invention
+
+
+
+Artifact (6)
+
+1
+Chrome Mox
+
+
+1
+Extraplanar Lens
+
+
+1
+Primal Amulet
+
+
+1
+Sapphire Medallion
+
+
+1
+Vedalken Shackles
+
+
+1
+Wayfarer's Bauble
+
+
+
+Enchantment (1)
+
+1
+Future Sight
+
+
+
+Land (40)
+
+1
+Ancient Tomb
+
+
+1
+Flooded Strand
+
+
+33
+Island
+
+
+1
+Lonely Sandbar
+
+
+1
+Misty Rainforest
+
+
+1
+Myriad Landscape
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+99 Cards 
+
+
+Sideboard (1)
+
+1
+Jace, Vryn's Prodigy
+
+
+
+
+Blue (51)
+
+1
+Curious Homunculus
+
+
+1
+Snapcaster Mage
+
+
+1
+Anticipate
+
+
+1
+Bribery
+
+
+1
+Capture of Jingzhou
+
+
+1
+Compulsive Research
+
+
+1
+Counterspell
+
+
+1
+Cryptic Command
+
+
+1
+Cyclonic Rift
+
+
+1
+Deep Analysis
+
+
+1
+Engulf the Shore
+
+
+1
+Fact or Fiction
+
+
+1
+Flash of Insight
+
+
+1
+Force of Will
+
+
+1
+Force Spike
+
+
+1
+Frantic Search
+
+
+1
+Future Sight
+
+
+1
+Gitaxian Probe
+
+
+1
+Glimmer of Genius
+
+
+1
+High Tide
+
+
+1
+Impulse
+
+
+1
+Into the Roil
+
+
+1
+Intuition
+
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Mana Leak
+
+
+1
+Memory Lapse
+
+
+1
+Mental Note
+
+
+1
+Merchant Scroll
+
+
+1
+Mystic Confluence
+
+
+1
+Negate
+
+
+1
+Obsessive Search
+
+
+1
+Opt
+
+
+1
+Pieces of the Puzzle
+
+
+1
+Pull from Tomorrow
+
+
+1
+Reality Shift
+
+
+1
+Remand
+
+
+1
+Repeal
+
+
+1
+Sleight of Hand
+
+
+1
+Snap
+
+
+1
+Teferi, Temporal Archmage
+
+
+1
+Temporal Fissure
+
+
+1
+Temporal Manipulation
+
+
+1
+Temporal Trespass
+
+
+1
+Think Twice
+
+
+1
+Thought Scour
+
+
+1
+Time Spiral
+
+
+1
+Time Warp
+
+
+1
+Timetwister
+
+
+1
+Walk the Aeons
+
+
+1
+Whir of Invention
+
+
+1
+Jace, Vryn's Prodigy
+
+
+
+Colorless (49)
+
+1
+Ancient Tomb
+
+
+1
+Flooded Strand
+
+
+33
+Island
+
+
+1
+Lonely Sandbar
+
+
+1
+Misty Rainforest
+
+
+1
+Myriad Landscape
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+1
+Emrakul, the Promised End
+
+
+1
+Ancestral Vision
+
+
+1
+Chrome Mox
+
+
+1
+Extraplanar Lens
+
+
+1
+Primal Amulet
+
+
+1
+Sapphire Medallion
+
+
+1
+Ugin, the Spirit Dragon
+
+
+1
+Vedalken Shackles
+
+
+1
+Wayfarer's Bauble
+
+
+100 Cards 
+
+
+
+1 (10)
+
+1
+Force Spike
+
+
+1
+Gitaxian Probe
+
+
+1
+High Tide
+
+
+1
+Mental Note
+
+
+1
+Obsessive Search
+
+
+1
+Opt
+
+
+1
+Repeal
+
+
+1
+Sleight of Hand
+
+
+1
+Thought Scour
+
+
+1
+Wayfarer's Bauble
+
+
+
+2 (19)
+
+1
+Curious Homunculus
+
+
+1
+Snapcaster Mage
+
+
+1
+Anticipate
+
+
+1
+Counterspell
+
+
+1
+Cyclonic Rift
+
+
+1
+Flash of Insight
+
+
+1
+Impulse
+
+
+1
+Into the Roil
+
+
+1
+Mana Leak
+
+
+1
+Memory Lapse
+
+
+1
+Merchant Scroll
+
+
+1
+Negate
+
+
+1
+Pull from Tomorrow
+
+
+1
+Reality Shift
+
+
+1
+Remand
+
+
+1
+Sapphire Medallion
+
+
+1
+Snap
+
+
+1
+Think Twice
+
+
+1
+Jace, Vryn's Prodigy
+
+
+
+3 (8)
+
+1
+Compulsive Research
+
+
+1
+Extraplanar Lens
+
+
+1
+Frantic Search
+
+
+1
+Intuition
+
+
+1
+Pieces of the Puzzle
+
+
+1
+Timetwister
+
+
+1
+Vedalken Shackles
+
+
+1
+Whir of Invention
+
+
+
+4 (7)
+
+1
+Cryptic Command
+
+
+1
+Deep Analysis
+
+
+1
+Engulf the Shore
+
+
+1
+Fact or Fiction
+
+
+1
+Glimmer of Genius
+
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Primal Amulet
+
+
+
+5 (8)
+
+1
+Bribery
+
+
+1
+Capture of Jingzhou
+
+
+1
+Force of Will
+
+
+1
+Future Sight
+
+
+1
+Mystic Confluence
+
+
+1
+Temporal Fissure
+
+
+1
+Temporal Manipulation
+
+
+1
+Time Warp
+
+
+
+6 (3)
+
+1
+Teferi, Temporal Archmage
+
+
+1
+Time Spiral
+
+
+1
+Walk the Aeons
+
+
+
+8 (1)
+
+1
+Ugin, the Spirit Dragon
+
+
+
+11 (1)
+
+1
+Temporal Trespass
+
+
+
+13 (1)
+
+1
+Emrakul, the Promised End
+
+
+58 Cards 
+
+
+
+Common (57)
+
+33
+Island
+
+
+1
+Lonely Sandbar
+
+
+1
+Anticipate
+
+
+1
+Compulsive Research
+
+
+1
+Deep Analysis
+
+
+1
+Force Spike
+
+
+1
+Frantic Search
+
+
+1
+Gitaxian Probe
+
+
+1
+Impulse
+
+
+1
+Into the Roil
+
+
+1
+Mana Leak
+
+
+1
+Memory Lapse
+
+
+1
+Mental Note
+
+
+1
+Merchant Scroll
+
+
+1
+Negate
+
+
+1
+Obsessive Search
+
+
+1
+Opt
+
+
+1
+Pieces of the Puzzle
+
+
+1
+Repeal
+
+
+1
+Sleight of Hand
+
+
+1
+Snap
+
+
+1
+Temporal Fissure
+
+
+1
+Think Twice
+
+
+1
+Thought Scour
+
+
+1
+Wayfarer's Bauble
+
+
+
+Uncommon (9)
+
+1
+Myriad Landscape
+
+
+1
+Curious Homunculus
+
+
+1
+Counterspell
+
+
+1
+Fact or Fiction
+
+
+1
+Flash of Insight
+
+
+1
+Glimmer of Genius
+
+
+1
+High Tide
+
+
+1
+Reality Shift
+
+
+1
+Remand
+
+
+
+Rare (21)
+
+1
+Snapcaster Mage
+
+
+1
+Ancestral Vision
+
+
+1
+Bribery
+
+
+1
+Capture of Jingzhou
+
+
+1
+Chrome Mox
+
+
+1
+Cryptic Command
+
+
+1
+Cyclonic Rift
+
+
+1
+Engulf the Shore
+
+
+1
+Extraplanar Lens
+
+
+1
+Force of Will
+
+
+1
+Future Sight
+
+
+1
+Intuition
+
+
+1
+Mystic Confluence
+
+
+1
+Primal Amulet
+
+
+1
+Pull from Tomorrow
+
+
+1
+Sapphire Medallion
+
+
+1
+Temporal Manipulation
+
+
+1
+Time Spiral
+
+
+1
+Timetwister
+
+
+1
+Walk the Aeons
+
+
+1
+Whir of Invention
+
+
+
+Mythic (13)
+
+1
+Ancient Tomb
+
+
+1
+Flooded Strand
+
+
+1
+Misty Rainforest
+
+
+1
+Polluted Delta
+
+
+1
+Scalding Tarn
+
+
+1
+Emrakul, the Promised End
+
+
+1
+Jace, the Mind Sculptor
+
+
+1
+Teferi, Temporal Archmage
+
+
+1
+Temporal Trespass
+
+
+1
+Time Warp
+
+
+1
+Ugin, the Spirit Dragon
+
+
+1
+Vedalken Shackles
+
+
+1
+Jace, Vryn's Prodigy
+
+
+100 Cards 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deal Another Hand 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            a:68:{i:0;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Ancient Tomb";s:22:"field_card_image_front";a:0:{}}}i:1;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Flooded Strand";s:22:"field_card_image_front";a:0:{}}}i:2;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:2:"33";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Island";s:22:"field_card_image_front";a:0:{}}}i:3;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Lonely Sandbar";s:22:"field_card_image_front";a:0:{}}}i:4;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Misty Rainforest";s:22:"field_card_image_front";a:0:{}}}i:5;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Myriad Landscape";s:22:"field_card_image_front";a:0:{}}}i:6;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Polluted Delta";s:22:"field_card_image_front";a:0:{}}}i:7;O:8:"stdClass":3:{s:4:"type";s:4:"land";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Scalding Tarn";s:22:"field_card_image_front";a:0:{}}}i:8;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Curious Homunculus";s:22:"field_card_image_front";a:0:{}}}i:9;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:25:"Emrakul, the Promised End";s:22:"field_card_image_front";a:0:{}}}i:10;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Snapcaster Mage";s:22:"field_card_image_front";a:0:{}}}i:11;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Ancestral Vision";s:22:"field_card_image_front";a:0:{}}}i:12;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Anticipate";s:22:"field_card_image_front";a:0:{}}}i:13;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Bribery";s:22:"field_card_image_front";a:0:{}}}i:14;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Capture of Jingzhou";s:22:"field_card_image_front";a:0:{}}}i:15;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:10:"Chrome Mox";s:22:"field_card_image_front";a:0:{}}}i:16;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:19:"Compulsive Research";s:22:"field_card_image_front";a:0:{}}}i:17;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Counterspell";s:22:"field_card_image_front";a:0:{}}}i:18;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Cryptic Command";s:22:"field_card_image_front";a:0:{}}}i:19;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Cyclonic Rift";s:22:"field_card_image_front";a:0:{}}}i:20;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Deep Analysis";s:22:"field_card_image_front";a:0:{}}}i:21;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Engulf the Shore";s:22:"field_card_image_front";a:0:{}}}i:22;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Extraplanar Lens";s:22:"field_card_image_front";a:0:{}}}i:23;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Fact or Fiction";s:22:"field_card_image_front";a:0:{}}}i:24;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Flash of Insight";s:22:"field_card_image_front";a:0:{}}}i:25;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Force of Will";s:22:"field_card_image_front";a:0:{}}}i:26;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Force Spike";s:22:"field_card_image_front";a:0:{}}}i:27;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Frantic Search";s:22:"field_card_image_front";a:0:{}}}i:28;O:8:"stdClass":3:{s:4:"type";s:11:"enchantment";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Future Sight";s:22:"field_card_image_front";a:0:{}}}i:29;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Gitaxian Probe";s:22:"field_card_image_front";a:0:{}}}i:30;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Glimmer of Genius";s:22:"field_card_image_front";a:0:{}}}i:31;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"High Tide";s:22:"field_card_image_front";a:0:{}}}i:32;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:7:"Impulse";s:22:"field_card_image_front";a:0:{}}}i:33;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Into the Roil";s:22:"field_card_image_front";a:0:{}}}i:34;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Intuition";s:22:"field_card_image_front";a:0:{}}}i:35;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:23:"Jace, the Mind Sculptor";s:22:"field_card_image_front";a:0:{}}}i:36;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Mana Leak";s:22:"field_card_image_front";a:0:{}}}i:37;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:12:"Memory Lapse";s:22:"field_card_image_front";a:0:{}}}i:38;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Mental Note";s:22:"field_card_image_front";a:0:{}}}i:39;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Merchant Scroll";s:22:"field_card_image_front";a:0:{}}}i:40;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Mystic Confluence";s:22:"field_card_image_front";a:0:{}}}i:41;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Negate";s:22:"field_card_image_front";a:0:{}}}i:42;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Obsessive Search";s:22:"field_card_image_front";a:0:{}}}i:43;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:3:"Opt";s:22:"field_card_image_front";a:0:{}}}i:44;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Pieces of the Puzzle";s:22:"field_card_image_front";a:0:{}}}i:45;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Primal Amulet";s:22:"field_card_image_front";a:0:{}}}i:46;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Pull from Tomorrow";s:22:"field_card_image_front";a:0:{}}}i:47;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Reality Shift";s:22:"field_card_image_front";a:0:{}}}i:48;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Remand";s:22:"field_card_image_front";a:0:{}}}i:49;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:6:"Repeal";s:22:"field_card_image_front";a:0:{}}}i:50;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:18:"Sapphire Medallion";s:22:"field_card_image_front";a:0:{}}}i:51;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:15:"Sleight of Hand";s:22:"field_card_image_front";a:0:{}}}i:52;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:4:"Snap";s:22:"field_card_image_front";a:0:{}}}i:53;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:25:"Teferi, Temporal Archmage";s:22:"field_card_image_front";a:0:{}}}i:54;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:16:"Temporal Fissure";s:22:"field_card_image_front";a:0:{}}}i:55;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:21:"Temporal Manipulation";s:22:"field_card_image_front";a:0:{}}}i:56;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Temporal Trespass";s:22:"field_card_image_front";a:0:{}}}i:57;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Think Twice";s:22:"field_card_image_front";a:0:{}}}i:58;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:13:"Thought Scour";s:22:"field_card_image_front";a:0:{}}}i:59;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Time Spiral";s:22:"field_card_image_front";a:0:{}}}i:60;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:9:"Time Warp";s:22:"field_card_image_front";a:0:{}}}i:61;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:11:"Timetwister";s:22:"field_card_image_front";a:0:{}}}i:62;O:8:"stdClass":3:{s:4:"type";s:12:"planeswalker";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:23:"Ugin, the Spirit Dragon";s:22:"field_card_image_front";a:0:{}}}i:63;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Vedalken Shackles";s:22:"field_card_image_front";a:0:{}}}i:64;O:8:"stdClass":3:{s:4:"type";s:7:"sorcery";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:14:"Walk the Aeons";s:22:"field_card_image_front";a:0:{}}}i:65;O:8:"stdClass":3:{s:4:"type";s:8:"artifact";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Wayfarer's Bauble";s:22:"field_card_image_front";a:0:{}}}i:66;O:8:"stdClass":3:{s:4:"type";s:7:"instant";s:10:"deck_count";s:1:"1";s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:17:"Whir of Invention";s:22:"field_card_image_front";a:0:{}}}i:67;O:8:"stdClass":3:{s:4:"type";s:8:"creature";s:10:"deck_count";i:0;s:9:"card_meta";O:8:"stdClass":2:{s:5:"title";s:20:"Jace, Vryn's Prodigy";s:22:"field_card_image_front";a:0:{}}}}          
+
+
+
+
+
+(function ($) {
+  if(!Drupal.settings.wiz_bean_content_deck_list_stats) {
+    Drupal.settings.wiz_bean_content_deck_list_stats = new Object();
+  }
+  Drupal.settings.wiz_bean_content_deck_list_stats['someguy_-'] = {"manacost":{"labels":[0,1,2,3,4,5,6,8,11,13],"counts":[42,10,19,8,7,8,3,1,1,1]},"color":{"colors":["#91d4f7"],"labels":["Blue"],"counts":[51],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/blue.png"],"multicolors":[]},"type":{"colors":["#555555","#777777","#666666","#dddddd","#eeeeee","#cccccc","#888888"],"labels":["Land","Creature","Sorcery","Instant","Artifact","Enchantment","Planeswalker"],"counts":[40,4,16,30,6,1,3],"icons":["sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/land.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/creature.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/sorcery.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/instant.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/artifact.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/enchantment.png","sites\/all\/modules\/features\/wiz_bean_content_deck_list\/icons\/planes.png"]}};
+})(jQuery);
+
+
+
+
+
+          Posted in          MTGO Standings
+          on January 11, 2018        
+
+Share Article
+
+Share
+Tweet
+Share
+
+
+
+
+
+
+
+
+
+FEATURED ARTICLE
+
+
+
+
+
+News
+January 15, 2018
+January 15, 2018 Banned and Restricted Announcement
+Ian Duke
+
+Announcing additions to the banned list for Standard.
+
+Learn More
+
+
+
+
+
+
+
+NEWS
+January 15, 2018
+Core Set 2019 Release Date Changed
+Wizards of the Coast
+
+We're so excited for the release of Core Set 2019, we're moving the release up one week to July 13!
+
+Learn More
+
+
+
+ 
+
+
+
+
+
+
+The city of Orazca is up for grabs! Join in the battle and stake your claim!
+
+
+              Learn More            
+
+
+
+
+
+
+
+Latest MTGO Standings Articles
+
+
+
+
+
+Competitive Vintage Constructed League on 01/14/2018
+
+Competitive Vintage Constructed League
+
+Decklists
+
+Decklists
+
+
+  
+
+                                                
+        
+                    
+            BigBanana (5-0)
+            
+                        
+     ...
+Learn More
+
+
+
+
+
+
+
+
+Competitive Commander Constructed League on 01/14/2018
+
+Competitive Commander Constructed League
+
+Decklists
+
+Decklists
+
+
+  
+
+                                                
+        
+                    
+            sivek (5-0)
+            
+                        
+         ...
+Learn More
+
+
+
+
+
+
+
+
+Articles
+
+Articles
+MTGO Standings Archive
+
+Consult the archives for more articles!
+See All
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+Back to top
+
+
+
+Where to Play and BuyFind a location to buy or playMagic: The Gathering near you.
+
+
+Find Now !
+
+ 
+
+
+
+
+
+Select your language:
+
+
+简体中文繁體中文FrançaisDeutschItaliano日本語한국어Português (Brasil)РусскийEspañolEnglish 
+
+
+Wizards Brand Family
+magic | d&d | wpn | duel masters | avalon hill
+Terms of Use | Code of Conduct | Privacy Policy | Customer Service | Cookies
+© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        We use cookies on this site to enhance your user experience. By clicking any link on this page or by clicking Yes, you are giving your consent for us to set cookies.         (Learn more about cookies)
+
+
+
+Yes, I agree
+No, I want to find out more
+
+
+ 
+
+
+
+
+
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0009/9185.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"574829f0b8","applicationID":"70690007","transactionName":"MVJbMkNUDRcHUEAICggYeAVFXAwKSUNVBgA5WlgIUFIGFjldWwUAOUFQA0ZqEwUBVg==","queueTime":0,"applicationTime":617,"atts":"HRVYRAtOHhk=","errorBeacon":"bam.nr-data.net","agent":""}
+

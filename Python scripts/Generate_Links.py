@@ -11,7 +11,7 @@ links = []
 for link in soup.find_all('a'):
     links.append(link.get('href'))
 
-myFile = open('csvexample3.csv','w')
+myFile = open('links.csv','w')
 
 with myFile:
     writer = csv.writer(myFile)
