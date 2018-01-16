@@ -24,3 +24,11 @@ curDir = curDir + '\Website-Parser.exe'
 
 sleep(5)
 subprocess.Popen([curDir])
+
+
+
+sleep(20)
+
+import Clean_Up
+
+Clean_Up
