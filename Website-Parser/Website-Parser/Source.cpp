@@ -21,20 +21,16 @@ int main()
 	{
 		if (tempString.find("RankNamePointsOMWPGWPOGWP") != tempString.npos)
 			playersUnparsed = tempString;
+		else if (tempString.empty())
+		{
+
+		}
 		else
 			data.push_back(tempString);
 	}
 
 	read.close();
-	ofstream write("dataOutput.txt");
-
-	for (int i = 0; i < data.size(); i++)
-	{
-		write << data[i] << endl;
-	}
-
-	write.close();
-
+	
 	stringstream playerStrStream;
 	playerStrStream << playersUnparsed;
 	vector <string> playerList;
@@ -63,7 +59,7 @@ int main()
 	}
 	for (int i = 0; i < playerList.size(); i++)			// Remove standings number
 	{
-		if (i < 10)
+		if (i < 9)
 		 playerList[i].erase(playerList[i].begin(),playerList[i].begin()+1);
 		else if(i<100) 
 		 playerList[i].erase(playerList[i].begin(), playerList[i].begin() + 2);
@@ -109,13 +105,84 @@ int main()
 		}
 	}
 	
+
+	vector <vector<string>> deckLists;
+
 	
 	for (int i = 0; i < playerList.size(); i++)
-		cout << playerList[i] << endl;
+	{
+		int startPos;
+		int startDecklistPos;
+		vector <string> tempDecklist;
+		tempDecklist.push_back(playerList[i]);
 
-	vector <string> deckLists;
+		for(int j=0; j<data.size(); j++)						// Use player name to locate where to extract decklist
+		{	
+			if (data[j].find(playerList[i]) != data[j].npos)
+			{
+				startPos = j;
+				break;
+			}
+		}
+		
+		for (int j = startPos; j < data.size(); j++)
+		{
+			if (data[j].find("OverviewColorCostRarity") != data[j].npos) // Find where decklist begins
+			{
+				startDecklistPos = j+1;
+				break;
+			}
+		}
 
+		int foundDeckEnd = false;
+		while (!foundDeckEnd)					// Find where decklist ends
+		{
+			if (data[startDecklistPos].find("Blue (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("White (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Red (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Black (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Green (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else
+			{
+				tempDecklist.push_back(data[startDecklistPos]);		// Add decklist element to tempDecklist
+				startDecklistPos++;
+			}
+
+		}
+		deckLists.push_back(tempDecklist);			// Add completed decklist to vector
+	}
 	
+	
+	ofstream writeDecklists("Decklists.csv");		// Create decklist output to save
+
+	for (int i = 0; i < deckLists.size(); i++)
+	{
+		writeDecklists << deckLists[i][0] << "'s Deck :" << endl;
+		for (int j = 1; j < deckLists[i].size(); j++)
+			writeDecklists << deckLists[i][j] << endl;
+
+		writeDecklists << endl;
+	}
 
 	
 
