@@ -179,10 +179,15 @@ void OutputDecklists(vector <vector<string>> & decklists, string filename)
 
 	for (int i = 0; i < decklists.size(); i++)
 	{
+		bool foundSB = false;
 		writeDecklists << decklists[i][0] << "'s Deck :" << endl;
 		for (int j = 1; j < decklists[i].size(); j++)
-			writeDecklists << decklists[i][j] << endl;
-
+		{
+			if (j % 2 == 1)
+				writeDecklists << '"' << decklists[i][j] << '"' << ",";
+			else
+				writeDecklists << '"' << decklists[i][j] << '"' << endl;		
+		}
 		writeDecklists << endl;
 	}
 }
@@ -221,6 +226,11 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				startDecklistPos = j + 1;
 				break;
 			}
+			else if (data[j].find("generalColorCosteRareza") != data[j].npos) // Find where decklist begins
+			{
+				startDecklistPos = j + 1;
+				break;
+			}
 			else if (j == data.size() - 1)
 			{
 				done = true;
@@ -236,7 +246,17 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				foundDeckEnd = true;
 				break;
 			}
+			else if (data[startDecklistPos].find("Azul (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
 			else if (data[startDecklistPos].find("White (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Blanco (") != data[startDecklistPos].npos)
 			{
 				foundDeckEnd = true;
 				break;
@@ -251,16 +271,79 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				foundDeckEnd = true;
 				break;
 			}
+			else if (data[startDecklistPos].find("Negro (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
 			else if (data[startDecklistPos].find("Green (") != data[startDecklistPos].npos)
 			{
 				foundDeckEnd = true;
 				break;
 			}
+			else if (data[startDecklistPos].find("Verde (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Creature (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Criatura (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Instant (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if ((data[startDecklistPos].find("Instant") != data[startDecklistPos].npos) && (data[startDecklistPos].find("(") != data[startDecklistPos].npos))
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Sorcery (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Conjuro (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Land (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Tierra (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Artifact (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Artefacto (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Enchantment (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Encantamiento (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Planeswalker (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
 			else
 			{
 				if (first_element)
 				{
-					tempDecklist.push_back(data[startDecklistPos - 6]);
+					tempDecklist.push_back(data[startDecklistPos - 7].substr(0, data[startDecklistPos - 7].size() - 6));
+				//	tempDecklist.push_back(data[startDecklistPos - 7]);
 					first_element = false;
 				}
 				tempDecklist.push_back(data[startDecklistPos]);		// Add decklist element to tempDecklist
@@ -279,7 +362,7 @@ int main()
 	vector<string> data;
 	vector <string> playerList;
 	vector <vector<string>> decklists;
-
+	
 	vector<string> vintageData;
 	vector <vector<string>> vintageDecklists;
 	vector<string> commanderData;
@@ -314,9 +397,9 @@ int main()
 	outputFilenames.push_back(date + "/StandardDecklists.csv");
 	outputFilenames.push_back("Decklists.csv");
 
-	CreatePlayerList(data, playerList);				// For challenges
-	CreateDecklists(data, playerList, decklists);	// For challenges
-	OutputDecklists(decklists, outputFilenames[0]);	// For challenges
+	//	CreatePlayerList(data, playerList);				// For challenges
+	//	CreateDecklists(data, playerList, decklists);	// For challenges
+	//	OutputDecklists(decklists, outputFilenames[0]);	// For challenges
 	
 	ReadLeagueData(vintageData, inputFilenames[0]);
 	ReadLeagueData(commanderData, inputFilenames[1]);
