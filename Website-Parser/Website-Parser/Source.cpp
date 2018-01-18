@@ -231,6 +231,11 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				startDecklistPos = j + 1;
 				break;
 			}
+			else if (data[j].find("PanoramicaColoreCosto") != data[j].npos) // Find where decklist begins
+			{
+				startDecklistPos = j + 1;
+				break;
+			}
 			else if (j == data.size() - 1)
 			{
 				done = true;
@@ -251,6 +256,11 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				foundDeckEnd = true;
 				break;
 			}
+			else if (data[startDecklistPos].find("Blu (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
 			else if (data[startDecklistPos].find("White (") != data[startDecklistPos].npos)
 			{
 				foundDeckEnd = true;
@@ -261,7 +271,17 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				foundDeckEnd = true;
 				break;
 			}
+			else if (data[startDecklistPos].find("Bianco (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
 			else if (data[startDecklistPos].find("Red (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Rosso (") != data[startDecklistPos].npos)
 			{
 				foundDeckEnd = true;
 				break;
@@ -272,6 +292,11 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 				break;
 			}
 			else if (data[startDecklistPos].find("Negro (") != data[startDecklistPos].npos)
+			{
+				foundDeckEnd = true;
+				break;
+			}
+			else if (data[startDecklistPos].find("Nero (") != data[startDecklistPos].npos)
 			{
 				foundDeckEnd = true;
 				break;
@@ -294,6 +319,10 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 			{
 				startDecklistPos++;
 			}
+			else if (data[startDecklistPos].find("Creatura (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
 			else if (data[startDecklistPos].find("Instant (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
@@ -302,7 +331,15 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 			{
 				startDecklistPos++;
 			}
+			else if ((data[startDecklistPos].find("Istantaneo") != data[startDecklistPos].npos) && (data[startDecklistPos].find("(") != data[startDecklistPos].npos))
+			{
+				startDecklistPos++;
+			}
 			else if (data[startDecklistPos].find("Sorcery (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Stregoneria (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
 			}
@@ -318,6 +355,10 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 			{
 				startDecklistPos++;
 			}
+			else if (data[startDecklistPos].find("Terra (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
 			else if (data[startDecklistPos].find("Artifact (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
@@ -326,11 +367,19 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 			{
 				startDecklistPos++;
 			}
+			else if (data[startDecklistPos].find("Artefatto (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
 			else if (data[startDecklistPos].find("Enchantment (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
 			}
 			else if (data[startDecklistPos].find("Encantamiento (") != data[startDecklistPos].npos)
+			{
+				startDecklistPos++;
+			}
+			else if (data[startDecklistPos].find("Incantesimo (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
 			}
