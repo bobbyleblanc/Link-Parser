@@ -5,6 +5,15 @@
 #include <sstream>
 using namespace std;
 
+inline bool isInteger(const std::string & s)
+{
+	if (s.empty() || ((!isdigit(s[0])) && (s[0] != '-') && (s[0] != '+'))) return false;
+
+	char * p;
+	strtol(s.c_str(), &p, 10);
+
+	return (*p == 0);
+}
 void CreatePlayerList(vector <string> & data, vector<string> & playerList)
 {
 	ifstream read;
@@ -181,9 +190,9 @@ void OutputDecklists(vector <vector<string>> & decklists, string filename)
 	{
 		bool foundSB = false;
 		writeDecklists << decklists[i][0] << "'s Deck :" << endl;
-		for (int j = 1; j < decklists[i].size(); j++)
+		for (int j = 2; j < decklists[i].size(); j++)
 		{
-			if (j % 2 == 1)
+			if (j % 2 == 0)
 				writeDecklists << '"' << decklists[i][j] << '"' << ",";
 			else
 				writeDecklists << '"' << decklists[i][j] << '"' << endl;		
@@ -323,6 +332,14 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 			{
 				startDecklistPos++;
 			}
+			else if ((data[startDecklistPos].find("Tribal") != data[startDecklistPos].npos) && (data[startDecklistPos].find("(") != data[startDecklistPos].npos))
+			{
+				startDecklistPos++;
+			}
+			else if ((data[startDecklistPos].find("Legendary") != data[startDecklistPos].npos) && (data[startDecklistPos].find("(") != data[startDecklistPos].npos))
+			{
+				startDecklistPos++;
+			}
 			else if (data[startDecklistPos].find("Instant (") != data[startDecklistPos].npos)
 			{
 				startDecklistPos++;
@@ -404,7 +421,19 @@ void CreateLeagueDecklists(vector <string> & data, vector <vector<string>> & dec
 	}
 
 }
-
+void FixOrderIfBroken(vector <vector<string>> & decklists)
+{
+	for (int i = 0; i < decklists.size(); i++)
+	{
+		for (int j = 0; j < decklists[i].size(); j++)
+		{
+			if ((j % 2 == 1)&&(isInteger(decklists[i][j])))
+			{
+				decklists[i].insert(decklists[i].begin() + j, " ");
+			}
+		}
+	}
+}
 int main()
 {
 	ifstream getDate;
@@ -464,6 +493,21 @@ int main()
 	CreateLeagueDecklists(modernData, modernDecklists);
 	CreateLeagueDecklists(standardData, standardDecklists);
 
+	FixOrderIfBroken(vintageDecklists);
+	FixOrderIfBroken(commanderDecklists);
+	FixOrderIfBroken(legacyDecklists);
+	FixOrderIfBroken(pauperDecklists);
+	FixOrderIfBroken(modernDecklists);
+	FixOrderIfBroken(standardDecklists);
+
+//	for (int i = 0; i < standardDecklists.size(); i++)
+//	{
+//		for (int j = 0; j < standardDecklists[i].size(); j++)
+//			cout << standardDecklists[i][j] << endl;
+//		
+//		cout << endl;
+//	}
+//	system("pause");
 	OutputDecklists(vintageDecklists, outputFilenames[0]);
 	OutputDecklists(commanderDecklists, outputFilenames[1]);
 	OutputDecklists(legacyDecklists, outputFilenames[2]);
